@@ -8,10 +8,10 @@ const Landing = () => {
 			<img
 				src={BGImage}
 				alt=''
-				className='w-full  z-0 h-[984px] bg-cover'
+				className='w-full  z-0 h-[984px] object-cover'
 			/>
-			<div className='w-full h-full absolute flex items-center justify-center top-0 z-40'>
-				<h1 className='text-black z-10'>
+			<div className='w-full h-full absolute flex items-center  justify-start top-0 z-40'>
+				<h1 className='text-black z-10 absolute left-10'>
 					Consulting Services for CEOs & Senior Leadership
 				</h1>
 			</div>
