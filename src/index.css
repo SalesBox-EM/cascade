@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap');
+
+body {
+	font-family: 'Carlito', sans-serif;
+}
+
+@layer base {
+	a {
+		@apply text-base md:text-lg lg:text-xl xl:text-[20px] font-semibold;
+	}
+	h1 {
+		@apply text-[40px] lg:text-[50px] xl:text-[70px] font-semibold tracking-wide leading-[0.95] z-40  text-white;
+	}
+	h3 {
+		@apply text-[18px] lg:text-[28px] xl:text-[35px] tracking-wide font-medium leading-[1.1] z-40  text-white;
+	}
+	h4 {
+		@apply text-[18px] lg:text-[28px] xl:text-[34px] tracking-wide font-medium leading-[1.1] z-40  text-white;
+	}
+}
