@@ -7,8 +7,8 @@ const Inights = () => {
         <div className='w-full  h-full flex items-center justify-center'>
             <div className='w-[90%] h-full'>
                 <h2 className='mt-12 mb-12 text-center text-7xl font-bold text-[#215488]'>Insights</h2>
-                <div className='w-full h-full mb-6 flex gap-6 items-start justify-center'>
-                    <div className='w-full flex flex-col items-start gap-5 max-w-[500px] h-full'>
+                <div className='w-full h-full mb-6 grid lg:grid-cols-3 gap-6 items-start justify-center'>
+                    <div className='w-full flex flex-col items-start gap-5  max-w-[500px] h-full'>
                         <img src={ImageOne} alt="" />
                         <h3 className='text-black text-3xl'>The Invisible Barrier to Business Breakthroughs</h3>
                         <h6>May 10, 2023</h6>

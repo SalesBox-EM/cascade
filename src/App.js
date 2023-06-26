@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import UnderJon from './Components/UnderJon';
 import UnderLanding from './Components/UnderLanding';
 import footer from './Assets/Fotter.svg';
+import Footer from './Components/Footer/Footer';
 function App() {
 	return (
 		<div className='App h-full '>
@@ -11,10 +12,7 @@ function App() {
 			<UnderLanding />
 			<Jhon />
 			<UnderJon />
-			<img
-				src={footer}
-				alt=''
-			/>
+			<Footer />
 		</div>
 	);
 }

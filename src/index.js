@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import { initializeApp } from 'firebase/app';
 // TODO: Add SDKs for Firebase products that you want to use
@@ -21,6 +22,13 @@ const app = initializeApp(firebaseConfig);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<App />
+		<BrowserRouter>
+			<Routes>
+				<Route
+					index
+					element={<App />}
+				/>
+			</Routes>
+		</BrowserRouter>
 	</React.StrictMode>
 );

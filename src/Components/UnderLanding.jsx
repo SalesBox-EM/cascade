@@ -12,7 +12,7 @@ const UnderLanding = () => {
 		</div>
 		<img src={Card} className='w-full h-full mb-10 object-fit' alt="" />
 		<div className='w-full h-full flex relative items-center justify-center'>
-			<div className='absolute z-50 h-fit flex flex-col gap-2 text-white xl:top-[30%] left-[50%]'>
+			<div className='absolute z-40 h-fit flex flex-col gap-2 text-white xl:top-[30%] left-[50%]'>
 				<h1 className='2xl:text-[80px] xl:text-[65px] text-[40px]'>Gain Clarity</h1>
 				<img src={UnderLine} alt="" />
 				<h5 className='w-[80%] text-xl bg-gradient-to-br text-transparent bg-clip-text font-semibold '>Experience the power of an Executive Business Partner.We'll join your Executive Team as objective facilitators, bringing clarity to your organization.</h5>

@@ -19,7 +19,7 @@ import Inights from './Inights'
 const UnderJon = () => {
     return (
         <div className='w-full h-full mt-10 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
-            <div className='w-[85%] relative flex items-center justify-center gap-6 h-full'>
+            <div className='w-[85%] relative grid grid-cols-2 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
                 <div className='w-full max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
                     <h1 className='text-black w-[50%] text-4xl'>Building Purpose Driven Businesses</h1>
                 </div>
@@ -38,7 +38,7 @@ const UnderJon = () => {
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
             </div>
             <div className='w-[85%] relative flex items-center justify-center gap-6 h-full'>
-                <div className='w-[80%] grid grid-cols-5 gap-3 h-full'>
+                <div className='w-[80%] grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
                     <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
                         <img src={logo1} className='w-[60%]' alt="" />
                     </div>
