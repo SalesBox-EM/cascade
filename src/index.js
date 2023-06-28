@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
+import Cascading from './Components/Pages/Cascading';
+import Organizational from './Components/Pages/Organizational';
+import SmartTech from './Components/Pages/SmartTech';
+import Whycascade from './Components/Pages/Whycascade';
 import { initializeApp } from 'firebase/app';
+import Connect from './Components/Pages/Connect';
+import Insights from './Components/Pages/Insights';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -27,6 +33,30 @@ root.render(
 				<Route
 					index
 					element={<App />}
+				/>
+				<Route
+					path='/Organizational'
+					element={<Organizational />}
+				/>
+				<Route
+					path='/Cascading'
+					element={<Cascading />}
+				/>
+				<Route
+					path='/SmartTech'
+					element={<SmartTech />}
+				/>
+				<Route
+					path='/Whycascade'
+					element={<Whycascade />}
+				/>
+				<Route
+					path='/Connect'
+					element={<Connect />}
+				/>
+				<Route
+					path='/Insights'
+					element={<Insights />}
 				/>
 			</Routes>
 		</BrowserRouter>

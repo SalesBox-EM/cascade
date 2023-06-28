@@ -1,17 +1,28 @@
 import React, { useState } from 'react';
 import BGImage from '../Assets/div.tp-bgimg.png';
 import UnderLine from '../Assets/UnderLine.svg';
+import VideoBG from '../Assets/executive-team-people-listening-ceo-discussing-pap-2021-09-03-22-01-43-utc.mp4'
 import NavBar from './NavBar';
 const Landing = () => {
-
 	return (
 		<div className='w-full h-[100vh] flex items-start justify-center overflow-hidden'>
 			<NavBar />
-			<img
-				src={BGImage}
-				alt=''
-				className='w-full absolute  z-0 h-full  object-cover '
-			/>
+			<div className='w-full h-full absolute bg-black/20 z-20'>
+			</div>
+			<div className='w-full h-full absolute bg-gradient-to-r from-black/90 z-20'>
+			</div>
+			<video
+				className="w-[100%] opacity-100 h-full object-cover absolute aspect-video z-0"
+				src={VideoBG}
+				loop
+				autobuffer='true'
+				autoPlay
+				muted
+				playsInline
+				disablePictureInPicture
+				preload={"auto"}
+				type={"video/mp4"}
+			></video>
 			<div className='2xl:w-[700px]  xl:w-[550px] flex gap-4 items-center justify-center  text-white right-[5%] h-[70px] bg-[#1E4976]/80 absolute bottom-0 rounded-t-[10px] '>
 				<h4 className='xl:text-2xl 2xl:text-3xl'>
 					Executive Business Partner

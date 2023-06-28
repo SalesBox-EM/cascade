@@ -14,7 +14,7 @@ import logo7 from '../Assets/Icons/image_166.svg'
 import logo8 from '../Assets/Icons/image_167.svg'
 import logo9 from '../Assets/Icons/image_168.svg'
 import logo10 from '../Assets/Icons/image_169.svg'
-import Inights from './Inights'
+import Insight from './Inight'
 
 const UnderJon = () => {
     return (
@@ -78,8 +78,8 @@ const UnderJon = () => {
                     </h3>
                 </div>
             </div>
-            <Inights />
-
+            <h2 className='mt-12  text-center text-7xl font-bold text-[#215488]'>Insights</h2>
+            <Insight />
         </div>
     )
 }
