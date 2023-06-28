@@ -14,6 +14,10 @@ import logo7 from '../Assets/Icons/image_166.svg'
 import logo8 from '../Assets/Icons/image_167.svg'
 import logo9 from '../Assets/Icons/image_168.svg'
 import logo10 from '../Assets/Icons/image_169.svg'
+import card1 from '../Assets/1.png'
+import card2 from '../Assets/2.png'
+import card3 from '../Assets/3.png'
+import card4 from '../Assets/4.png'
 import Insight from './Inight'
 
 const UnderJon = () => {
@@ -23,17 +27,21 @@ const UnderJon = () => {
                 <div className='w-full max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
                     <h1 className='text-black w-[50%] text-4xl'>Building Purpose Driven Businesses</h1>
                 </div>
-                <div className='w-full bg-white shadow-lg shadow-black/50 max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
-                    <img src={first} alt="" />
+                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                    <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={first} alt="" />
+                    <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card1} alt="" />
                 </div>
-                <div className='w-full bg-white shadow-lg shadow-black/50 max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
-                    <img src={second} alt="" />
+                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                    <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={second} alt="" />
+                    <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card2} alt="" />
                 </div>
-                <div className='w-full bg-white shadow-lg shadow-black/50 max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
-                    <img src={third} alt="" />
+                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                    <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={third} alt="" />
+                    <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card3} alt="" />
                 </div>
-                <div className='w-full bg-white shadow-lg shadow-black/50 max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
-                    <img src={fourth} alt="" />
+                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                    <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={fourth} alt="" />
+                    <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card4} alt="" />
                 </div>
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
             </div>
