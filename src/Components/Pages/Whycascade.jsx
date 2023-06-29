@@ -12,7 +12,7 @@ import logo5 from '../../Assets/image 214.svg'
 import FooterImg from '../../Assets/Group 26879.png'
 const Whycascade = () => {
     return (
-        <div className=' h-full w-full '>
+        <div id='homewhy' className=' h-full w-full '>
             <NavBar />
             <img src={bgImage} className=' z-0 pt-[96px]  object-contain ' alt="" />
             <div className='w-full  absolute top-[40%]'>
@@ -21,7 +21,7 @@ const Whycascade = () => {
                     <img src={underline} className='absolute left-0' alt="" />
                 </div>
             </div>
-            <div className='w-full h-full flex mt-10 mb-10 flex-col items-center justify-center'>
+            <div id='aboutUs' className='w-full h-full flex mt-10 mb-10 flex-col items-center justify-center'>
                 <div className='w-[80%] h-full '>
                     <h5 className='text-2xl font-semibold'>
                         At Cascade Clarity, our purpose is clear: to create organizational harmony.

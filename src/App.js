@@ -7,7 +7,7 @@ import footer from './Assets/Fotter.svg';
 import Footer from './Components/Footer/Footer';
 function App() {
 	return (
-		<div className='App h-full '>
+		<div id='home' className='App h-full '>
 			<Landing />
 			<UnderLanding />
 			<Jhon />

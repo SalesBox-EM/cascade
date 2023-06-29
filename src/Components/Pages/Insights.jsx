@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 import Insight from '../Inight'
 const Insights = () => {
     return (
-        <div className='w-full h-full'>
+        <div id='homeInsights' className='w-full h-full'>
             <NavBar />
             <img src={bgImage} className='pt-[96px]' alt="" />
             <Insight />

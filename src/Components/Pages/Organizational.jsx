@@ -8,9 +8,9 @@ import GettyImage2 from '../../Assets/GettyImages-1165320149 1.png'
 import Footer from '../Footer/Footer'
 const Organizational = () => {
     return (
-        <div className='w-full h-full'><NavBar />
+        <div id='homeorganize' className='w-full h-full'><NavBar />
             <img src={LandingImage} className='pt-[96px] w-full  ' alt="" />
-            <h1 className=' text-center mt-12 mb-4 text-[#215488]'>The Silo Effect</h1>
+            <h1 id='Silo' className=' text-center mt-12 mb-4 text-[#215488]'>The Silo Effect</h1>
             <img src={UnderLine} className='w-[64%]' alt="" />
             <div className='w-full h-full flex flex-col items-center justify-center'>
                 <div className='w-[80%] h-full flex items-center  p-6 gap-10'>
@@ -26,7 +26,7 @@ const Organizational = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-full relative mb-6'>
+            <div id='Data' className='w-full h-full relative mb-6'>
                 <h1 className=' text-center mt-12  text-[#215488]'>Data Visibility </h1>
                 <img src={UnderLine} className='w-[63%] absolute right-0 -bottom-[20px]  ' alt="" />
             </div>
@@ -59,7 +59,7 @@ const Organizational = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-full  flex flex-col items-center justify-center mb-6'>
+            <div id='Cascading' className='w-full h-full  flex flex-col items-center justify-center mb-6'>
                 <div className='w-[80%] h-full flex items-center justify-between  p-6 gap-10'>
                     <div className=' flex flex-col relative justify-center items-start'>
                         <h1 className=' text-center   text-[#215488] h-fit mt-24'>Cascading </h1>

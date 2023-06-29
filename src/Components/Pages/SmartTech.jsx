@@ -15,10 +15,10 @@ import logo10 from '../../Assets/Group 26860.svg'
 import Footer from '../Footer/Footer'
 const SmartTech = () => {
     return (
-        <div className='w-full h-full'>
+        <div id='homeTech' className='w-full h-full'>
             <NavBar />
             <img src={bgimage} className='pt-[96px]' alt="" />
-            <div className='w-fit p-20 relative  h-full'>
+            <div id='Definition' className='w-fit p-20 relative  h-full'>
                 <h1 className='text-[#215488]  ml-20'>Definition</h1>
                 <h1 className='text-[#215488] -mt-3  ml-20'>&Approach</h1>
                 <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
@@ -55,12 +55,12 @@ const SmartTech = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-fit p-20 relative  h-full'>
+            <div id='Methodology' className='w-fit p-20 relative  h-full'>
                 <h1 className='text-[#215488]  ml-20'>Clarity </h1>
                 <h1 className='text-[#215488] -mt-3  ml-20'>Methodology</h1>
                 <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
             </div>
-            <div className='h-full w-full flex flex-col items-center justify-center'>
+            <div className='h-full w-full p-20 flex flex-col items-center justify-center'>
                 <div className='w-[80%] h-full flex flex-col items-center'>
                     <h2 className='text-3xl font-bold text-[#0D223A] mt-10 '>4 Phase Methodology</h2>
                     <div className='w-full h-full grid lg:grid-cols-2 grid-cols-1  gap-12 justify-center items-center p-10 '>

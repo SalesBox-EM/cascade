@@ -11,7 +11,7 @@ const Insight = () => {
                         <img src={ImageOne} alt="" />
                         <h3 className='text-black text-3xl'>The Invisible Barrier to Business Breakthroughs</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl '>Sony once had two separate departments simultaneously working on the same plug without either team realizing it. The silo effect has long been...</h5>
+                        <h5 className='text-xl line-clamp-3 '>Sony once had two separate departments simultaneously working on the same plug without either team realizing it. The silo effect has long been...</h5>
                         <a href="/" className='w-full text-end'>Read More</a>
                     </div>
                     <div className='w-full flex flex-col items-start gap-5 max-w-[500px] h-full'>
@@ -19,14 +19,14 @@ const Insight = () => {
                         <h3 className='text-black text-3xl w-[70%]'>AI & Beyond: Leadership
                             Adaption</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl'>Sony once had two separate departments simultaneously working on the same plug without either team realizing it. The silo effect has long been...</h5>
+                        <h5 className='text-xl line-clamp-3'>Global business leaders face potential replacement as AI threatens to topple many. As a result, modern leaders must innovate and...</h5>
                         <a href="/" className='w-full text-end'>Read More</a>
                     </div>
                     <div className='w-full flex flex-col items-start gap-5  max-w-[500px] h-full'>
                         <img src={ImageThree} alt="" />
                         <h3 className='text-black text-3xl'>Actionable Ideas Need Engaged Execs</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl'>Sony once had two separate departments simultaneously working on the same plug without either team realizing it. The silo effect has long been...</h5>
+                        <h5 className='text-xl line-clamp-3'>While tech trends are tipping towards automation, execs must remain present. According to a recent notable study, relationships ...</h5>
                         <a href="/" className='w-full text-end'>Read More</a>
                     </div>
                 </div>

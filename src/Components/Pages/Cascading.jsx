@@ -12,12 +12,12 @@ import person2 from '../../Assets/Image5.png'
 import person3 from '../../Assets/Image6.png'
 const Cascading = () => {
     return (
-        <div className='w-full h-full '>
+        <div id='homecascade' className='w-full h-full '>
             <NavBar />
             <img src={LandingImage} className='pt-[96px]' alt="" />
-            <div className='flex flex-col w-full items-center  h-full'>
-                <div className='w-[80%] mt-6 h-full flex items-start justify-around gap-6'>
-                    <div className='p-10 w-2/4   relative'>
+            <div id='Executive' className='flex flex-col w-full items-center  h-full'>
+                <div className='w-[80%] p-10  h-full flex items-start justify-around gap-6'>
+                    <div className='w-2/4   relative'>
                         <h1 className='text-[#215488]'>Executive</h1>
                         <h1 className='text-[#215488]'>Business</h1>
                         <h1 className='text-[#215488] mb-6'>Partner</h1>
@@ -29,7 +29,7 @@ const Cascading = () => {
                             <li> Improve Business Outcomes.</li>
                         </ul>
                     </div>
-                    <div className='p-11 '>
+                    <div className=' '>
                         <h4 className='text-black text-2xl font-normal'>Cascade Clarity provides specialist fractional executive-level support.
                             Our Executive Business Partner offering focuses on these Key Activities:</h4>
                         <div className='w-full h-full flex gap-6'>
@@ -59,6 +59,8 @@ const Cascading = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id='Revenue' className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] h-full flex items-start justify-around gap-6'>
                     <div className='p-10 w-2/4  relative'>
                         <h1 className='text-[#215488]'>Increase
@@ -82,6 +84,8 @@ const Cascading = () => {
                         <img src={person1} alt="" />
                     </div>
                 </div>
+            </div>
+            <div id='Expenses' className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%]  h-full flex items-start justify-around gap-6'>
                     <div className=' '>
                         <img src={person2} className='max-h-[650px]' alt="" />
@@ -108,6 +112,8 @@ const Cascading = () => {
                         <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488]'>The Clarity Methodology {'>'}</a>
                     </div>
                 </div>
+            </div>
+            <div id='Processes' className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] p-10 mt-6 mb-6  h-full flex items-start justify-around gap-10'>
                     <div className=' '>
                         <img src={person3} className=' max-w-[800px]' alt="" />
@@ -119,6 +125,8 @@ const Cascading = () => {
                         <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
                     </div>
                 </div>
+            </div>
+            <div className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] -mt-16  p-10   h-full  gap-10'>
                     <h4 className='text-[#215488] text-lg'>
                         Cascade Clarity focuses on improving business processes by crossing organizational boundaries and providing unbiased collaboration and facilitation. Our activities include:
@@ -137,7 +145,6 @@ const Cascading = () => {
                     </h2>
                     <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488] '>The Clarity Methodology {'>'}</a>
                 </div>
-
             </div>
             <Footer />
         </div>

@@ -8,7 +8,7 @@ import bgImage from '../../Assets/Group 26880.png'
 import calendar from '../../Assets/calendar.png'
 const Connect = () => {
     return (
-        <div className='w-full h-full'>
+        <div id='homeConnect' className='w-full h-full'>
             <NavBar />
             <img src={bgImage} className='pt-[96px]' alt="" />
             <div className='w-full h-full flex items-center justify-center'>

@@ -18,6 +18,16 @@ import card1 from '../Assets/1.png'
 import card2 from '../Assets/2.png'
 import card3 from '../Assets/3.png'
 import card4 from '../Assets/4.png'
+import card5 from '../Assets/5.png'
+import card6 from '../Assets/6.png'
+import card7 from '../Assets/7.png'
+import card8 from '../Assets/8.png'
+import card9 from '../Assets/9.png'
+import card10 from '../Assets/10.png'
+import card11 from '../Assets/11.png'
+import card12 from '../Assets/12.png'
+import card13 from '../Assets/13.png'
+import card14 from '../Assets/14.png'
 import Insight from './Inight'
 
 const UnderJon = () => {
@@ -47,35 +57,45 @@ const UnderJon = () => {
             </div>
             <div className='w-[85%] relative flex items-center justify-center gap-6 h-full'>
                 <div className='w-[80%] grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo1} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card5} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo2} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo2} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card6} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo3} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo3} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card7} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo4} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo4} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card8} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo5} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo5} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card9} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo6} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo6} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card10} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo7} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo7} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card11} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo8} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo8} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card12} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo9} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo9} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card13} alt="" />
                     </div>
-                    <div className='w-[163px] flex items-center justify-center h-[163px] bg-white rounded-lg shadow-lg shadow-black/50'>
-                        <img src={logo10} className='w-[60%]' alt="" />
+                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+                        <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo10} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card14} alt="" />
                     </div>
 
                 </div>
