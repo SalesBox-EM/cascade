@@ -5,6 +5,9 @@ import Burger from '../Assets/BurgerMenu.svg'
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+    let activeClassName =
+        "text-white text-lg font-normal ";
+    const inActiveClassName = "text-black text-lg font-normal";
     const [organizational, setOrganizational] = useState(false)
     const [cascading, setcascading] = useState(false)
     const [smart, setSmart] = useState(false)
@@ -56,6 +59,7 @@ const NavBar = () => {
                             behavior: 'smooth'
                         });
                     }
+
                 }}>
                     <div className='flex items-center justify-center gap-2'>
                         <img src={Logo} alt="" className='h-[65px]' />
@@ -76,7 +80,9 @@ const NavBar = () => {
                                 });
                             }
                         }}>
-                            <h5 className='text-black text-lg font-normal'>Organizational Challenges</h5>
+                            <h5 className={({ isActive }) =>
+                                isActive ? 'text-white' : 'text-black'
+                            }>Organizational Challenges</h5>
                         </NavLink>
                         <div
                             onMouseLeave={handleMouseLeave}

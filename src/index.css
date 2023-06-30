@@ -24,4 +24,8 @@ body {
 	h5 {
 		@apply text-[10px] lg:text-[15px] xl:text-[20px] tracking-wide font-medium  z-40  text-black;
 	}
+	.textBlue {
+		color: blue;
+		background-color: red;
+	}
 }

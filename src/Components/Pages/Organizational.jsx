@@ -62,8 +62,11 @@ const Organizational = () => {
             <div id='Cascading' className='w-full h-full  flex flex-col items-center justify-center mb-6'>
                 <div className='w-[80%] h-full flex items-center justify-between  p-6 gap-10'>
                     <div className=' flex flex-col relative justify-center items-start'>
-                        <h1 className=' text-center   text-[#215488] h-fit mt-24'>Cascading </h1>
-                        <h1 className=' text-center   text-[#215488] h-fit'>Objectives </h1>
+                        <div className='flex flex-col items-start relative w-full  '>
+                            <h1 className=' text-center   text-[#215488] h-fit  mt-24'>Cascading </h1>
+                            <h1 className=' text-center   text-[#215488] h-fit mb-3'>Objectives </h1>
+                            <img src={UnderLine} className='absolute bottom-0   left-[-200px] ' alt="" />
+                        </div>
                         <h5 className='mt-10 mb-8'>Common Corporate Objectives typically
                             take some form of:
                         </h5>
