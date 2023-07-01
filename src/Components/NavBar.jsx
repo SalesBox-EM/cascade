@@ -59,7 +59,6 @@ const NavBar = () => {
                             behavior: 'smooth'
                         });
                     }
-
                 }}>
                     <div className='flex items-center justify-center gap-2'>
                         <img src={Logo} alt="" className='h-[65px]' />
@@ -69,7 +68,9 @@ const NavBar = () => {
                 <div className='flex items-center gap-14 '>
                     <div onMouseEnter={handleMouseEnter}
                         className='relative group'>
-                        <NavLink to='/Organizational' onClick={() => {
+                        <NavLink className={({ isActive }) =>
+                            isActive ? " text-blue-600" : " text-black"
+                        } to='/Organizational' onClick={() => {
                             const navbarHeight = 0; // Height of your fixed navbar in pixels
                             const executiveDiv = document.getElementById('homeorganize');
                             if (executiveDiv) {
@@ -80,9 +81,8 @@ const NavBar = () => {
                                 });
                             }
                         }}>
-                            <h5 className={({ isActive }) =>
-                                isActive ? 'text-white' : 'text-black'
-                            }>Organizational Challenges</h5>
+
+                            Organizational Challenges
                         </NavLink>
                         <div
                             onMouseLeave={handleMouseLeave}
@@ -304,7 +304,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
