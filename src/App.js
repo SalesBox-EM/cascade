@@ -5,9 +5,10 @@ import UnderJon from './Components/UnderJon';
 import UnderLanding from './Components/UnderLanding';
 import footer from './Assets/Fotter.svg';
 import Footer from './Components/Footer/Footer';
+
 function App() {
 	return (
-		<div id='home' className='App h-full '>
+		<div className='App h-full '>
 			<Landing />
 			<UnderLanding />
 			<Jhon />

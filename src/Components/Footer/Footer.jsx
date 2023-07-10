@@ -6,8 +6,8 @@ import LogoText from '../../Assets/Group 26781.svg'
 const Footer = () => {
     return (
         <div className='w-full h-full flex p-12 flex-col items-center justify-center bg-[#0C2239]'>
-            <div className='w-[80%] h-full flex gap-10 items-start justify-between '>
-                <div className='w-2/5 flex flex-col items-start gap-3 justify-center'>
+            <div className='w-[95%] h-full flex gap-10 items-start justify-between '>
+                <div className='w-2/6 flex flex-col items-start gap-3 justify-center'>
                     <NavLink to='/' onClick={() => {
                         const navbarHeight = 0; // Height of your fixed navbar in pixels
                         const executiveDiv = document.getElementById('home');
@@ -24,7 +24,7 @@ const Footer = () => {
                             <img src={LogoText} alt="" />
                         </div>
                     </NavLink>
-                    <h4 className='text-sm  lg:text-base tracking-tight w-[75%] text-gray-500'>
+                    <h4 className='text-sm  lg:text-lg tracking-tight w-[75%] text-gray-500'>
                         Cascade Clarity creates company cohesion and empowers executives, allowing organizations and people to achieve peak potential.
                         <span className="inline-flex items-center">
                             <a href="https://www.linkedin.com/in/cuellar/" target="_blank" rel="noopener noreferrer">
@@ -34,7 +34,7 @@ const Footer = () => {
                     </h4>
 
                 </div>
-                <div className=' h-full grid grid-cols-4 gap-4 items-start justify-center'>
+                <div className=' h-full grid grid-cols-4 gap-6 items-start justify-around'>
                     <div className='flex flex-col '>
                         <NavLink to='/Organizational' onClick={() => {
                             const navbarHeight = 0; // Height of your fixed navbar in pixels
@@ -47,7 +47,10 @@ const Footer = () => {
                                 });
                             }
                         }}>
-                            <h2 className='text-xl text-[#00D2AD] mb-5' >Organizational Challenges</h2>
+                            <div className='flex group'>
+                                <h2 className='text-xl  text-white transition-all duration-150 group-hover:text-[#00D2AD] mb-5' >Organizational</h2>
+                                <h2 className='text-xl  text-white transition-all duration-150 group-hover:text-[#00D2AD] mb-5' > Challenges</h2>
+                            </div>
                         </NavLink>
                         <NavLink to='/Organizational' onClick={() => {
                             const navbarHeight = 96; // Height of your fixed navbar in pixels
@@ -102,7 +105,7 @@ const Footer = () => {
                                 });
                             }
                         }} >
-                            <h2 className='text-xl text-[#00D2AD] mb-5 '> Cascading
+                            <h2 className='text-xl text-white transition-all duration-150 hover:text-[#00D2AD] mb-5 '> Cascading
                                 Solutions</h2>
                         </NavLink>
                         <NavLink to='/Cascading' onClick={() => {
@@ -161,8 +164,6 @@ const Footer = () => {
                             <h6 className='text-[#A5A5A5] text-lg mb-2'> Streamline Processes   </h6>
 
                         </NavLink>
-
-
                     </div>
                     <div className='flex flex-col'>
                         <NavLink to='/SmartTech' onClick={() => {
@@ -176,7 +177,7 @@ const Footer = () => {
                                 });
                             }
                         }}>
-                            <h2 className='text-xl text-[#00D2AD] mb-5 '>Smart
+                            <h2 className='text-xl text-white transition-all duration-150 hover:text-[#00D2AD] mb-5 '>Smart
                                 Technology</h2>
                         </NavLink>
                         <NavLink to='/SmartTech' onClick={() => {
@@ -206,8 +207,6 @@ const Footer = () => {
                         }}>
                             <h6 className='text-[#A5A5A5] text-lg mb-2'> Clarity Methodology</h6>
                         </NavLink>
-
-
                     </div>
                     <div className='flex flex-col'>
                         <NavLink to='/Whycascade' onClick={() => {
@@ -221,7 +220,7 @@ const Footer = () => {
                                 });
                             }
                         }}>
-                            <h2 className='text-xl text-[#00D2AD] mb-5 '>Why Cascade Clarity</h2>
+                            <h2 className='text-xl text-white transition-all duration-150 hover:text-[#00D2AD] mb-5 '>Why Cascade Clarity</h2>
                         </NavLink>
                         <NavLink to='/Insights' onClick={() => {
                             const navbarHeight = 0; // Height of your fixed navbar in pixels
@@ -249,7 +248,7 @@ const Footer = () => {
                         }}>
                             <h6 className='text-[#A5A5A5] mb-2'>Let’s Connect</h6>
                         </NavLink>
-                        <NavLink to='/Whycascade' onClick={() => {
+                        {/* <NavLink to='/Whycascade' onClick={() => {
                             const navbarHeight = 96; // Height of your fixed navbar in pixels
                             const executiveDiv = document.getElementById('aboutUs');
                             if (executiveDiv) {
@@ -261,12 +260,16 @@ const Footer = () => {
                             }
                         }}>
                             <h6 className='text-[#A5A5A5] mb-2'>About us</h6>
-                        </NavLink>
+                        </NavLink> */}
                     </div>
                 </div>
             </div>
             <div className='flex flex-col items-center mt-12'>
-                <h3 className='text-lg text-[#00D2AD]'>Privacy Policy & Terms of Use.</h3>
+                <div className='flex gap-1'>
+                    <h3 className='text-lg text-[#00D2AD]'>Privacy Policy </h3>
+                    <h3 className='text-lg'> & </h3>
+                    <h3 className='text-lg text-[#00D2AD]'> Terms of Use</h3>
+                </div>
                 <h3 className='text-lg text-[#9B9B9B]'>© 2023 powered by <a href="https://www.salesbox.io/" className='hover:text-lime-500 transition-all' target="_blank" rel="noopener noreferrer">Salesmrkt.com</a></h3>
             </div>
         </div>

@@ -3,9 +3,30 @@ import BGImage from '../Assets/div.tp-bgimg.png';
 import UnderLine from '../Assets/UnderLine.svg';
 import VideoBG from '../Assets/executive-team-people-listening-ceo-discussing-pap-2021-09-03-22-01-43-utc.mp4'
 import NavBar from './NavBar';
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const Landing = () => {
+	const location = useLocation();
+	const scrollRefHome = useRef(null);
+	useEffect(() => {
+		const scrollToDiv = () => {
+			const navbarHeight = 90; // Height of your fixed navbar in pixels
+			const topOffset = scrollRefHome.current.offsetTop - navbarHeight;
+			window.scrollTo({
+				top: topOffset,
+				behavior: 'smooth',
+			});
+		};
+
+		const queryParams = new URLSearchParams(location.search);
+		const scrollTo = queryParams.get('scrollTo');
+		if (scrollTo === 'Home' && scrollRefHome.current) {
+			scrollToDiv();
+		}
+	}, [location.search]);
 	return (
-		<div className='w-full h-[100vh] flex items-start justify-center overflow-hidden'>
+		<div
+			id='Home' ref={scrollRefHome} className='w-full h-[100vh] flex items-start justify-center overflow-hidden'>
 			<NavBar />
 			<div className='w-full h-full absolute bg-black/20 z-20'>
 			</div>

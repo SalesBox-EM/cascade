@@ -10,17 +10,106 @@ import icon4 from '../../Assets/image 231.svg'
 import person1 from '../../Assets/Image4.png'
 import person2 from '../../Assets/Image5.png'
 import person3 from '../../Assets/Image6.png'
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const Cascading = () => {
+    const location = useLocation();
+    const scrollRef4 = useRef(null);
+    const scrollRefHome = useRef(null);
+    const scrollRef5 = useRef(null);
+    const scrollRef6 = useRef(null);
+    const scrollRef7 = useRef(null);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRefHome.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'homecascade' && scrollRefHome.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef4.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Executive' && scrollRef4.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef5.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Revenue' && scrollRef5.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 120; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef6.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Expenses' && scrollRef6.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef7.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Processes' && scrollRef7.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
     return (
-        <div id='homecascade' className='w-full h-full '>
+        <div id='homecascade' ref={scrollRefHome} className='w-full h-full '>
             <NavBar />
             <img src={LandingImage} className='pt-[96px]' alt="" />
-            <div id='Executive' className='flex flex-col w-full items-center  h-full'>
+            <div id='Executive' ref={scrollRef4} className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] p-10  h-full flex items-start justify-around gap-6'>
                     <div className='w-2/4   relative'>
                         <h1 className='text-[#215488]'>Executive</h1>
                         <h1 className='text-[#215488]'>Business</h1>
-                        <h1 className='text-[#215488] mb-6'>Partner</h1>
+                        <h1 className='text-[#215488] mb-3'>Partner</h1>
+                        <img src={underLine} className='min-w-[450px] absolute left-[-200px]' alt="" />
                         <ul className='text-[#215488] font-normal list-disc p-5'>
                             <li>Save Time.</li>
                             <li className=''>Save Time.
@@ -60,12 +149,14 @@ const Cascading = () => {
                     </div>
                 </div>
             </div>
-            <div id='Revenue' className='flex flex-col w-full items-center  h-full'>
+            <div id='Revenue' ref={scrollRef5} className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] h-full flex items-start justify-around gap-6'>
                     <div className='p-10 w-2/4  relative'>
                         <h1 className='text-[#215488]'>Increase
                         </h1>
-                        <h1 className='text-[#215488]'> Revenue</h1>
+                        <h1 className='text-[#215488] mb-3'> Revenue</h1>
+                        <img src={underLine} className='min-w-[500px] absolute left-[-200px]' alt="" />
+
                         <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into Sales,
                             Marketing & Product activity.</h6>
                         <h6 className='text-lg'> Cascade Clarity bridges department gaps to facilitate improved data visibility and collaboration. Key Activities include:
@@ -85,15 +176,17 @@ const Cascading = () => {
                     </div>
                 </div>
             </div>
-            <div id='Expenses' className='flex flex-col w-full items-center  h-full'>
-                <div className='w-[80%]  h-full flex items-start justify-around gap-6'>
+            <div id='Expenses' ref={scrollRef6} className='flex flex-col w-full items-center  h-full overflow-hidden'>
+                <div className='w-[80%]  h-full flex items-start justify-around gap-6 '>
                     <div className=' '>
                         <img src={person2} className='max-h-[650px]' alt="" />
                     </div>
                     <div className='p-10 w-2/4  relative'>
                         <h1 className='text-[#215488]'>Reduce
                         </h1>
-                        <h1 className='text-[#215488]'> Expenses</h1>
+                        <h1 className='text-[#215488] mb-3'> Expenses</h1>
+                        <img src={underLine} className='min-w-[760px] absolute right-[-200px]' alt="" />
+
                         <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into innovative, tech-based solutions to reduce costs.</h6>
                         <h6 className='text-lg'>Cascade Clarity surfaces and validates departmental ratios to highlight areas of extraordinary expense. Activities include working with Finance and individual departments to create a Ratio Scorecard to include but not limited to:
                         </h6>
@@ -113,7 +206,7 @@ const Cascading = () => {
                     </div>
                 </div>
             </div>
-            <div id='Processes' className='flex flex-col w-full items-center  h-full'>
+            <div id='Processes' ref={scrollRef7} className='flex flex-col w-full items-center overflow-hidden  h-full'>
                 <div className='w-[80%] p-10 mt-6 mb-6  h-full flex items-start justify-around gap-10'>
                     <div className=' '>
                         <img src={person3} className=' max-w-[800px]' alt="" />
@@ -121,7 +214,9 @@ const Cascading = () => {
                     <div className='w-2/4  relative'>
                         <h1 className='text-[#215488]'>Streamline
                         </h1>
-                        <h1 className='text-[#215488]'> Processes</h1>
+                        <h1 className='text-[#215488] mb-3'> Processes</h1>
+                        <img src={underLine} className='min-w-[530px] absolute right-[-200px]' alt="" />
+
                         <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
                     </div>
                 </div>

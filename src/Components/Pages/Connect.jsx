@@ -6,9 +6,32 @@ import phone from '../../Assets/Phone.svg'
 import location from '../../Assets/Location.svg'
 import bgImage from '../../Assets/Group 26880.png'
 import calendar from '../../Assets/calendar.png'
+import { useEffect, useState, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const Connect = () => {
+    const smoothScrollToDiv = (ref, navbarHeight) => {
+        const topOffset = ref.current.offsetTop - navbarHeight;
+        window.scrollTo({
+            top: topOffset,
+            behavior: 'smooth'
+        });
+    };
+    const location = useLocation();
+    const scrollRefHome = useRef(null);
+    const [isScrollPerformed, setIsScrollPerformed] = useState(false);
+    useEffect(() => {
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        const navbarHeight = 120; // Height of your fixed navbar in pixels
+        if (!isScrollPerformed) {
+            if (scrollTo === 'homeConnect' && scrollRefHome.current) {
+                smoothScrollToDiv(scrollRefHome, navbarHeight);
+                setIsScrollPerformed(true);
+            }
+        }
+    }, [location.search, isScrollPerformed]);
     return (
-        <div id='homeConnect' className='w-full h-full'>
+        <div id='homeConnect' ref={scrollRefHome} className='w-full h-full'>
             <NavBar />
             <img src={bgImage} className='pt-[96px]' alt="" />
             <div className='w-full h-full flex items-center justify-center'>

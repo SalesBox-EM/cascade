@@ -6,27 +6,102 @@ import LightBulp from '../../Assets/LightBulp.svg'
 import GettyImage from '../../Assets/GettyImages-1165320149 2.png'
 import GettyImage2 from '../../Assets/GettyImages-1165320149 1.png'
 import Footer from '../Footer/Footer'
+import { useEffect, useState, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const Organizational = () => {
+    const location = useLocation();
+    const scrollRefHome = useRef(null);
+    const scrollRef1 = useRef(null);
+    const scrollRef2 = useRef(null);
+    const scrollRef3 = useRef(null);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRefHome.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'homeorganize' && scrollRefHome.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 200; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef1.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Silo' && scrollRef1.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef2.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Data' && scrollRef2.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef3.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Cascading' && scrollRef3.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+
+
     return (
-        <div id='homeorganize' className='w-full h-full'><NavBar />
-            <img src={LandingImage} className='pt-[96px] w-full  ' alt="" />
-            <h1 id='Silo' className=' text-center mt-12 mb-4 text-[#215488]'>The Silo Effect</h1>
+        <div id='homeorganize' ref={scrollRefHome} className='w-full h-full'>
+            <NavBar />
+            <div className=' w-full h-full'>
+                <img src={LandingImage} className='pt-[96px] min-h-[500px] w-full  ' alt="" />
+            </div>
+            <h1 id='Silo' className=' text-center  pt-[96px] mb-4 text-[#215488]'>The Silo Effect</h1>
             <img src={UnderLine} className='w-[64%]' alt="" />
-            <div className='w-full h-full flex flex-col items-center justify-center'>
+            <div ref={scrollRef1} className='w-full h-full flex flex-col items-center justify-center'>
                 <div className='w-[80%] h-full flex items-center  p-6 gap-10'>
                     <img src={LightBulp} className='xl:w-[340px] w-[150px]' alt="" />
                     <div className='flex flex-col gap-6 text-xl'>
                         <p>Through decades of experience, we have gained a deep understanding of the challenges organizational structures can create.
                         </p>
                         <p>  One such challenge is the silo effect, a phenomenon more attributable to psychology than any managerial or leadership deficiency. Silos often cause information for strategic decision-making to be biased, incomplete, and obscured.
-
                         </p>
                         <p>Cascade Clarity provides an unbiased bridge and engagement mechanism for senior leaders, facilitating cross-organizational gaps while deploying smart technology solutions when needed. The result? Neutral, reliable data and metrics for strategic decision-making.</p>
-                        <a href="http://" className='text-[#345D8A] text-3xl' target="_blank" rel="noopener noreferrer">Let's Discuss</a>
+                        <a id='Data' href="http://" className='text-[#345D8A] text-3xl' target="_blank" rel="noopener noreferrer">Let's Discuss</a>
                     </div>
                 </div>
             </div>
-            <div id='Data' className='w-full h-full relative mb-6'>
+            <div ref={scrollRef2} className='w-full h-full relative mb-6'>
                 <h1 className=' text-center mt-12  text-[#215488]'>Data Visibility </h1>
                 <img src={UnderLine} className='w-[63%] absolute right-0 -bottom-[20px]  ' alt="" />
             </div>
@@ -59,7 +134,7 @@ const Organizational = () => {
                     </div>
                 </div>
             </div>
-            <div id='Cascading' className='w-full h-full  flex flex-col items-center justify-center mb-6'>
+            <div id='Cascading' ref={scrollRef3} className='w-full h-full  flex flex-col items-center justify-center mb-6'>
                 <div className='w-[80%] h-full flex items-center justify-between  p-6 gap-10'>
                     <div className=' flex flex-col relative justify-center items-start'>
                         <div className='flex flex-col items-start relative w-full  '>

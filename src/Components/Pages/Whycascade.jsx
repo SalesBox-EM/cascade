@@ -10,11 +10,36 @@ import logo3 from '../../Assets/image 212.svg'
 import logo4 from '../../Assets/image 213.svg'
 import logo5 from '../../Assets/image 214.svg'
 import FooterImg from '../../Assets/Group 26879.png'
+import { useEffect, useState, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const Whycascade = () => {
+    const smoothScrollToDiv = (ref, navbarHeight) => {
+        const topOffset = ref.current.offsetTop - navbarHeight;
+        window.scrollTo({
+            top: topOffset,
+            behavior: 'smooth'
+        });
+    };
+    const location = useLocation();
+    const scrollRefHome = useRef(null);
+    const [isScrollPerformed, setIsScrollPerformed] = useState(false);
+    useEffect(() => {
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        const navbarHeight = 120; // Height of your fixed navbar in pixels
+        if (!isScrollPerformed) {
+            if (scrollTo === 'homewhy' && scrollRefHome.current) {
+                smoothScrollToDiv(scrollRefHome, navbarHeight);
+                setIsScrollPerformed(true);
+            }
+        }
+    }, [location.search, isScrollPerformed]);
     return (
-        <div id='homewhy' className=' h-full w-full '>
+        <div className=' h-full w-full '>
             <NavBar />
-            <img src={bgImage} className=' z-0 pt-[96px]  object-contain ' alt="" />
+            <div id='homewhy' ref={scrollRefHome} className='w-full h-full'>
+                <img src={bgImage} className=' z-0 pt-[96px]  object-contain ' alt="" />
+            </div>
             <div className='w-full  absolute top-[40%]'>
                 <div className='relative w-fit'>
                     <h1 className='mb-3 ml-20'>Why Cascade Clarity ?</h1>

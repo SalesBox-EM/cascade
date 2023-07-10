@@ -13,12 +13,85 @@ import logo8 from '../../Assets/Group 26861.svg'
 import logo9 from '../../Assets/Group 26859.svg'
 import logo10 from '../../Assets/Group 26860.svg'
 import Footer from '../Footer/Footer'
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 const SmartTech = () => {
+    const location = useLocation();
+    const scrollRef4 = useRef(null);
+    const scrollRefHome = useRef(null);
+    const scrollRef5 = useRef(null);
+    const scrollRef6 = useRef(null);
+    const scrollRef7 = useRef(null);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRefHome.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'homeTech' && scrollRefHome.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 90; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef4.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Definition' && scrollRef4.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 80; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef5.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Methodology' && scrollRef5.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
+
+    useEffect(() => {
+        const scrollToDiv = () => {
+            const navbarHeight = 80; // Height of your fixed navbar in pixels
+            const topOffset = scrollRef7.current.offsetTop - navbarHeight;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        };
+
+        const queryParams = new URLSearchParams(location.search);
+        const scrollTo = queryParams.get('scrollTo');
+        if (scrollTo === 'Processes' && scrollRef7.current) {
+            scrollToDiv();
+        }
+    }, [location.search]);
     return (
-        <div id='homeTech' className='w-full h-full'>
+        <div id='homeTech' ref={scrollRefHome} className='w-full h-full'>
             <NavBar />
             <img src={bgimage} className='pt-[96px]' alt="" />
-            <div id='Definition' className='w-fit p-20 relative  h-full'>
+            <div id='Definition' ref={scrollRef4} className='w-fit p-10 relative  h-full'>
                 <h1 className='text-[#215488]  ml-20'>Definition</h1>
                 <h1 className='text-[#215488] -mt-3  ml-20'>&Approach</h1>
                 <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
@@ -55,12 +128,12 @@ const SmartTech = () => {
                     </div>
                 </div>
             </div>
-            <div id='Methodology' className='w-fit p-20 relative  h-full'>
+            <div id='Methodology' ref={scrollRef5} className='w-fit p-20 relative  h-full'>
                 <h1 className='text-[#215488]  ml-20'>Clarity </h1>
                 <h1 className='text-[#215488] -mt-3  ml-20'>Methodology</h1>
                 <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
             </div>
-            <div className='h-full w-full p-20 flex flex-col items-center justify-center'>
+            <div className='h-full w-full  flex flex-col items-center justify-center'>
                 <div className='w-[80%] h-full flex flex-col items-center'>
                     <h2 className='text-3xl font-bold text-[#0D223A] mt-10 '>4 Phase Methodology</h2>
                     <div className='w-full h-full grid lg:grid-cols-2 grid-cols-1  gap-12 justify-center items-center p-10 '>

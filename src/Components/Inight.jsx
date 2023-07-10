@@ -5,29 +5,35 @@ import ImageThree from '../Assets/1.jpg (2).png'
 const Insight = () => {
     return (
         <div className='w-full  h-full flex items-center justify-center'>
-            <div className='w-[90%] mt-12 mb-12 h-full'>
-                <div className='w-full h-full mb-6 grid lg:grid-cols-3 gap-6 items-start justify-center'>
+            <div className='w-[90%] mt-10 mb-10 h-full'>
+                <div className='w-full h-full  grid lg:grid-cols-3 gap-6 items-start justify-center'>
                     <div className='w-full flex flex-col items-start gap-5  max-w-[500px] h-full'>
                         <img src={ImageOne} alt="" />
                         <h3 className='text-black text-3xl'>The Invisible Barrier to Business Breakthroughs</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl line-clamp-3 '>Sony once had two separate departments simultaneously working on the same plug without either team realizing it. The silo effect has long been...</h5>
-                        <a href="/" className='w-full text-end'>Read More</a>
+                        <div className='inline-flex items-baseline flex-wrap '>
+                            <h5 className='text-xl  '>Sony once had two separate departments simultaneously working on the same plug without either team realizing... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                        </div>
                     </div>
                     <div className='w-full flex flex-col items-start gap-5 max-w-[500px] h-full'>
                         <img src={ImageTwo} alt="" />
                         <h3 className='text-black text-3xl w-[70%]'>AI & Beyond: Leadership
                             Adaption</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl line-clamp-3'>Global business leaders face potential replacement as AI threatens to topple many. As a result, modern leaders must innovate and...</h5>
-                        <a href="/" className='w-full text-end'>Read More</a>
+                        <div className='inline-flex items-baseline flex-wrap '>
+                            <h5 className='text-xl  '>Global business leaders face potential replacement as AI threatens to topple many. As a result modern leaders must... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                        </div>
                     </div>
                     <div className='w-full flex flex-col items-start gap-5  max-w-[500px] h-full'>
                         <img src={ImageThree} alt="" />
                         <h3 className='text-black text-3xl'>Actionable Ideas Need Engaged Execs</h3>
                         <h6>May 10, 2023</h6>
-                        <h5 className='text-xl line-clamp-3'>While tech trends are tipping towards automation, execs must remain present. According to a recent notable study, relationships ...</h5>
-                        <a href="/" className='w-full text-end'>Read More</a>
+                        <div className='inline-flex items-baseline flex-wrap '>
+                            <h5 className='text-xl  '>While tech trends are tipping towards automation, execs must remain present. According to a recent... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                        </div>
+                        {/* 
+                        <h5 className='text-xl line-clamp-3'>While tech trends are tipping towards automation, execs must remain present. According to a recent notable study relationships ...</h5>
+                        <a href="/" className='w-full text-end '>Read More</a> */}
                     </div>
                 </div>
             </div>
