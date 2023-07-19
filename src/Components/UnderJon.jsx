@@ -55,15 +55,15 @@ const UnderJon = () => {
                 </div>
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
             </div>
-            <div className='w-[95%] lg:w-[85%] relative flex flex-col items-center justify-center gap-6 h-full'>
-                <div className='w-full  h-full'>
-                    <h3 className='text-black text-2xl flex lg:hidden leading-loose'>
-                        A Career Implementing Simple Solutions to Solve Complex Problems for
-                        World-Class Brands
-                    </h3>
-                </div>
-                <div className='w-[80%] grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
-                    <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
+            <div className='w-[80%]  h-full flex  lg:hidden'>
+                <h3 className='text-black text-2xl  leading-loose'>
+                    A Career Implementing Simple Solutions to Solve Complex Problems for
+                    World-Class Brands
+                </h3>
+            </div>
+            <div className='w-[95%] lg:w-[85%]   relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
+                <div className=' w-[100%]   grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
+                    <div className='group  bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
                         <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card5} alt="" />
                     </div>
@@ -103,7 +103,6 @@ const UnderJon = () => {
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo10} alt="" />
                         <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card14} alt="" />
                     </div>
-
                 </div>
                 <div className='w-[30%]  h-full'>
                     <h3 className='text-black text-2xl leading-loose hidden lg:flex'>
@@ -111,6 +110,7 @@ const UnderJon = () => {
                         World-Class Brands
                     </h3>
                 </div>
+
             </div>
             <h2 className='mt-12  text-center text-7xl font-bold text-[#215488]'>Insights</h2>
             <Insight />
