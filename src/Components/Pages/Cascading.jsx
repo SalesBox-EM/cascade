@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar'
-import LandingImage from '../../Assets/Group 26875.svg'
+import LandingImage from '../../Assets/Group 26906.png'
 import Footer from '../Footer/Footer'
 import underLine from '../../Assets/UnderLine.svg'
 import icon1 from '../../Assets/image 228.svg'
@@ -12,6 +12,7 @@ import person2 from '../../Assets/Image5.png'
 import person3 from '../../Assets/Image6.png'
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 const Cascading = () => {
     const location = useLocation();
     const scrollRef4 = useRef(null);
@@ -102,25 +103,44 @@ const Cascading = () => {
     return (
         <div id='homecascade' ref={scrollRefHome} className='w-full h-full '>
             <NavBar />
-            <img src={LandingImage} className='pt-[96px]' alt="" />
-            <div id='Executive' ref={scrollRef4} className='flex flex-col w-full items-center  h-full'>
+            <div className=' w-full h-full relative'>
+                <div className='flex flex-col top-[62%] gap-6 left-[8%] absolute'>
+                    <HashLink smooth to="/Cascading/#Executive">
+                        <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Executive Business Partner</h5>
+                    </HashLink>
+                    <HashLink smooth to="/Cascading/#Revenue">
+                        <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Increase Revenue</h5>
+                    </HashLink>
+                    <HashLink smooth to="/Cascading/#Expenses">
+                        <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Reduce Expenses</h5>
+                    </HashLink>
+                    <HashLink smooth to="/Cascading/#Processes">
+                        <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Streamline Processes</h5>
+                    </HashLink>
+                </div>
+                <img src={LandingImage} className='pt-[96px] min-h-[500px] w-full  ' alt="" />
+            </div>
+
+            <div id='Executive' ref={scrollRef4} className='flex pt-[96px]  flex-col w-full items-center  h-full'>
                 <div className='w-[80%] p-10  h-full flex items-start justify-around gap-6'>
                     <div className='w-2/4   relative'>
                         <h1 className='text-[#215488]'>Executive</h1>
                         <h1 className='text-[#215488]'>Business</h1>
                         <h1 className='text-[#215488] mb-3'>Partner</h1>
-                        <img src={underLine} className='min-w-[450px] absolute left-[-200px]' alt="" />
+                        <img src={underLine} className='min-w-[650px] absolute left-[-300px]' alt="" />
                         <ul className='text-[#215488] font-normal list-disc p-5'>
                             <li>Save Time.</li>
-                            <li className=''>Save Time.
+                            <li className=''>
                                 Enhance Collaboration & Coordination.
                             </li>
                             <li> Improve Business Outcomes.</li>
                         </ul>
                     </div>
                     <div className=' '>
-                        <h4 className='text-black text-2xl font-normal'>Cascade Clarity provides specialist fractional executive-level support.
-                            Our Executive Business Partner offering focuses on these Key Activities:</h4>
+                        <h4 className='text-black text-2xl mb-2  font-semibold'>Cascade Clarity provides fractional executive-level support.
+                        </h4>
+                        <h4 className='text-black text-2xl   font-semibold'> Our Executive Business Partner offering focuses on these Key Activities:
+                        </h4>
                         <div className='w-full h-full flex gap-6'>
                             <div className='flex flex-col gap-10 mt-6'>
                                 <div className='flex items-center justify-between gap-2'>
@@ -143,13 +163,15 @@ const Cascading = () => {
                                     <img src={icon3} alt="" className='w-[60px]' />
                                     <h6 className='text-start w-full'>Support tracking of KPIs via cross-functional collaboration</h6>
                                 </div>
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488]'>The Clarity Methodology {'>'}</a>
+                                <HashLink to="/SmartTech/#Methodology">
+                                    <h5 id='Revenue' className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                                </HashLink>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id='Revenue' ref={scrollRef5} className='flex flex-col w-full items-center  h-full'>
+            <div ref={scrollRef5} className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] h-full flex items-start justify-around gap-6'>
                     <div className='p-10 w-2/4  relative'>
                         <h1 className='text-[#215488]'>Increase
@@ -169,25 +191,24 @@ const Cascading = () => {
                             <li>  Analyzing MQL / SQL productivity</li>
                             <li>   Validating Sales Funnel metrics</li>
                         </ul>
-                        <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488]'>The Clarity Methodology {'>'}</a>
+                        <HashLink to="/SmartTech/#Methodology">
+                            <h5 id='Expenses' className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                        </HashLink>
                     </div>
                     <div className='p-11 '>
                         <img src={person1} alt="" />
                     </div>
                 </div>
             </div>
-            <div id='Expenses' ref={scrollRef6} className='flex flex-col w-full items-center  h-full overflow-hidden'>
+            <div ref={scrollRef6} className='flex flex-col w-full items-center  h-full overflow-hidden'>
                 <div className='w-[80%]  h-full flex items-start justify-around gap-6 '>
                     <div className=' '>
                         <img src={person2} className='max-h-[650px]' alt="" />
                     </div>
                     <div className='p-10 w-2/4  relative'>
-                        <h1 className='text-[#215488]'>Reduce
-                        </h1>
-                        <h1 className='text-[#215488] mb-3'> Expenses</h1>
-                        <img src={underLine} className='min-w-[760px] absolute right-[-200px]' alt="" />
-
-                        <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into innovative, tech-based solutions to reduce costs.</h6>
+                        <h1 className='text-[#215488] mb-3'> Reduce Expenses</h1>
+                        <img src={underLine} className='min-w-[860px] absolute right-[-300px]' alt="" />
+                        <h6 className='mt-10 text-2xl mb-3  font-semibold'>Gain clarity into business expenses with deep dive, unbiased data driven analysis</h6>
                         <h6 className='text-lg'>Cascade Clarity surfaces and validates departmental ratios to highlight areas of extraordinary expense. Activities include working with Finance and individual departments to create a Ratio Scorecard to include but not limited to:
                         </h6>
                         <ul className='text-[#215488] font-normal list-disc p-5'>
@@ -202,11 +223,13 @@ const Cascading = () => {
                             <li>    Additional areas of need
                             </li>
                         </ul>
-                        <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488]'>The Clarity Methodology {'>'}</a>
+                        <HashLink to="/SmartTech/#Methodology">
+                            <h5 id='Processes' className=' text-xl font-bold text-[#215488] mt-3 hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                        </HashLink>
                     </div>
                 </div>
             </div>
-            <div id='Processes' ref={scrollRef7} className='flex flex-col w-full items-center overflow-hidden  h-full'>
+            <div ref={scrollRef7} className='flex flex-col w-full items-center overflow-hidden  h-full'>
                 <div className='w-[80%] p-10 mt-6 mb-6  h-full flex items-start justify-around gap-10'>
                     <div className=' '>
                         <img src={person3} className=' max-w-[800px]' alt="" />
@@ -223,8 +246,11 @@ const Cascading = () => {
             </div>
             <div className='flex flex-col w-full items-center  h-full'>
                 <div className='w-[80%] -mt-16  p-10   h-full  gap-10'>
-                    <h4 className='text-[#215488] text-lg'>
-                        Cascade Clarity focuses on improving business processes by crossing organizational boundaries and providing unbiased collaboration and facilitation. Our activities include:
+                    <h4 className='text-[#215488] font-semibold text-lg'>
+                        Cascade Clarity focuses on improving business processes by crossing organizational boundaries
+                    </h4>
+                    <h4 className='text-[#215488] font-semibold text-lg'>
+                        and providing unbiased collaboration and facilitation. Our activities include:
                     </h4>
                     <ul className='p-6 list-disc'>
                         <li>  Set Clear Objectives focusing on desired business outcomes
@@ -235,10 +261,12 @@ const Cascading = () => {
                         </li>
                         <li> Foster Collaboration and Communication</li>
                     </ul>
-                    <h2 className='text-2xl mb-10'>
+                    <h2 className='text-2xl mb-6'>
                         We tailor our approach to achieve improved outcomes.
                     </h2>
-                    <a href="http://" target="_blank" rel="noopener noreferrer" className='text-[#215488] '>The Clarity Methodology {'>'}</a>
+                    <HashLink to="/SmartTech/#Methodology">
+                        <h5 className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                    </HashLink>
                 </div>
             </div>
             <Footer />

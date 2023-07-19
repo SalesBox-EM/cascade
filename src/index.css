@@ -13,16 +13,16 @@ body {
 		@apply text-base md:text-lg lg:text-xl xl:text-[20px] font-semibold;
 	}
 	h1 {
-		@apply text-[40px] lg:text-[50px] xl:text-[70px] font-semibold tracking-wide leading-[0.95] z-40  text-white;
+		@apply text-[35px] lg:text-[50px] xl:text-[75px] font-semibold tracking-wide leading-[0.95] z-40  text-white;
 	}
 	h3 {
-		@apply text-[18px] lg:text-[28px] xl:text-[35px] tracking-wide font-medium leading-[1.1] z-40  text-white;
+		@apply text-[19px] lg:text-[28px] xl:text-[35px] tracking-wide font-medium leading-[1.1] z-40  text-white;
 	}
 	h4 {
 		@apply text-[18px] lg:text-[28px] xl:text-[34px] tracking-wide font-medium leading-[1.1] z-40  text-white;
 	}
 	h5 {
-		@apply text-[10px] lg:text-[15px] xl:text-[20px] tracking-wide font-medium  z-40  text-black;
+		@apply text-[15px] lg:text-[15px] xl:text-[20px] tracking-wide font-medium  z-40  text-black;
 	}
 	.textBlue {
 		color: blue;

@@ -33,9 +33,9 @@ import Insight from './Inight'
 const UnderJon = () => {
     return (
         <div className='w-full h-full mt-10 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
-            <div className='w-[85%] relative grid grid-cols-2 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
+            <div className='w-[95%] lg:w-[85%] relative grid grid-cols-2 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
                 <div className='w-full max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
-                    <h1 className='text-black w-[50%] text-4xl'>Building Purpose Driven Businesses</h1>
+                    <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl text-start'>Building Purpose Driven Businesses</h1>
                 </div>
                 <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={first} alt="" />
@@ -55,7 +55,13 @@ const UnderJon = () => {
                 </div>
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
             </div>
-            <div className='w-[85%] relative flex items-center justify-center gap-6 h-full'>
+            <div className='w-[95%] lg:w-[85%] relative flex flex-col items-center justify-center gap-6 h-full'>
+                <div className='w-full  h-full'>
+                    <h3 className='text-black text-2xl flex lg:hidden leading-loose'>
+                        A Career Implementing Simple Solutions to Solve Complex Problems for
+                        World-Class Brands
+                    </h3>
+                </div>
                 <div className='w-[80%] grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
                     <div className='group bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
@@ -100,7 +106,7 @@ const UnderJon = () => {
 
                 </div>
                 <div className='w-[30%]  h-full'>
-                    <h3 className='text-black text-2xl leading-loose'>
+                    <h3 className='text-black text-2xl leading-loose hidden lg:flex'>
                         A Career Implementing Simple Solutions to Solve Complex Problems for
                         World-Class Brands
                     </h3>

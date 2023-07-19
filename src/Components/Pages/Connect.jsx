@@ -3,11 +3,16 @@ import NavBar from '../NavBar'
 import Footer from '../Footer/Footer'
 import mail from '../../Assets/mail.svg'
 import phone from '../../Assets/Phone.svg'
-import location from '../../Assets/Location.svg'
+import other from '../../Assets/Location.svg'
 import bgImage from '../../Assets/Group 26880.png'
+import Logo from '../../Assets/Logo.png'
+import LogoText from '../../Assets/logoText.svg'
 import calendar from '../../Assets/calendar.png'
+import { InlineWidget } from 'react-calendly';
 import { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
+import { AiOutlineClockCircle } from 'react-icons/ai'
+import { BiVideo } from 'react-icons/bi'
 const Connect = () => {
     const smoothScrollToDiv = (ref, navbarHeight) => {
         const topOffset = ref.current.offsetTop - navbarHeight;
@@ -35,48 +40,72 @@ const Connect = () => {
             <NavBar />
             <img src={bgImage} className='pt-[96px]' alt="" />
             <div className='w-full h-full flex items-center justify-center'>
-                <div className='w-[80%] mt-10 mb-10 h-full flex items-start justify-center gap-6'>
+                <div className='w-[80%] mt-10 mb-10 h-full flex items-center justify-evenly gap-6'>
                     <div className='flex flex-col   justify-between  w-1/3 p-6 h-full min-h-[300px] gap-8 mt-6 mb-6'>
-                        <div>
-                            <label className='' htmlFor="">Name</label>
-                            <input type="text" placeholder='Jhon Doe' className='w-full outline mt-1 outline-1 p-2  rounded-md outline-gray-600' name="" id="" />
-                        </div>
-                        <div className='flex  gap-6'>
-                            <div className='w-full'>
-                                <label for="phone" className="block mb-2 text-sm font-medium text-gray-900 ">Email</label>
-                                <input type="email" placeholder='example@example.com' className='w-full outline outline-1 mt-1 p-2  rounded-md outline-gray-600' required name="" id="" />
-                            </div>
-
-                            <div className='w-full'>
-                                <label for="phone" className="block mb-2 text-sm font-medium text-gray-900 ">Phone number</label>
-                                <input type="tel" id="phone" className="w-full outline mt-1 p-2 outline-1  rounded-md outline-gray-600 " placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></input>
-                            </div>
-                        </div>
-                        <div className='w-full'>
-                            <label for="phone" className="block mb-2 text-sm font-medium text-gray-900 ">Website</label>
-                            <input type="text" placeholder='www.' className='w-full outline outline-1 mt-1 p-2  rounded-md outline-gray-600' name="" id="" />
-                        </div>
                         <div className='flex flex-col gap-3'>
                             <div className='flex gap-3 mt-5'>
                                 <img src={mail} alt="" />
-                                <h5>gainclarity@cascadeclarity.com</h5>
+                                <a href="mailto:gainclarity@cascadeclarity.com
+                                ">
+                                    <h5>gainclarity@cascadeclarity.ai</h5>
+                                </a>
+
                             </div>
                             <div className='flex gap-3 mt-5'>
                                 <img src={phone} alt="" />
-                                <h5>+1(510) 123 4567</h5>
+                                <a href="tel:+1(510) 831 2782
+                                "> <h5> +1 510-831-2782</h5></a>
+
                             </div>
                             <div className='flex gap-3 mt-5'>
-                                <img src={location} alt="" />
-                                <h5>Oakland, CA - United States</h5>
-                            </div>
+                                <img src={other} alt="" />
+                                <a href="https://goo.gl/maps/C8srn4KmbXDCHmPW6" target="_blank" rel="noopener noreferrer">
+                                    <h5>2201 Broadway
+                                        Oakland, CA 94612</h5>
+                                </a>
 
+                            </div>
                         </div>
                     </div>
-                    <img src={calendar} alt="" />
+                    <div className='border flex rounded-2xl p-1 '>
+                        <div className='flex w-fit flex-col items-center justify-start'>
+                            <div className='flex w-fit items-center justify-center  mt-6 gap-3'>
+                                <img src={Logo} className='w-[100px] h-[100px]' alt="" />
+                                <img src={LogoText} className='w-[100px] h-[100px] ' alt="" />
+                            </div>
+                            <div className='flex flex-col w-fit items-start p-6'>
+                                <h5 className='text-start mb-3'>Cascade Clairty </h5>
+                                <h3 className='text-2xl max-w-[350px] text-black  font-bold'>Cascade Clairty - 30 Minute Introductory Meeting</h3>
+                                <div className='flex gap-4 items-center mt-10 justify-center'>
+                                    <AiOutlineClockCircle className='text-2xl' />
+                                    <h5>
+                                        30 min
+                                    </h5>
+                                </div>
+                                <div className='flex gap-4 mt-3 w-4/5 items-center justify-center'>
+                                    <BiVideo className='text-3xl' />
+                                    <h5>
+                                        Web conferencing details provided upon confirmation.</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <InlineWidget
+                            url='https://calendly.com/cascadeclarity/30min'
+                            pageSettings={{
+                                backgroundColor: 'ffffff',
+                                hideEventTypeDetails: true,
+                                hideLandingPageDetails: true,
+                                hideGdprBanner: true,
+                                primaryColor: '00a2ff',
+                                textColor: '4d5055'
+                            }}
+                        />
+                    </div>
                 </div>
             </div>
             <Footer />
-        </div>
+        </div >
     )
 }
 

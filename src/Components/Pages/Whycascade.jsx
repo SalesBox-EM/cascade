@@ -9,6 +9,7 @@ import logo2 from '../../Assets/image 211.svg'
 import logo3 from '../../Assets/image 212.svg'
 import logo4 from '../../Assets/image 213.svg'
 import logo5 from '../../Assets/image 214.svg'
+import CEOLogo from '../../Assets/Group 26909.png'
 import FooterImg from '../../Assets/Group 26879.png'
 import { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -56,25 +57,25 @@ const Whycascade = () => {
                     </h5>
                     <div className='w-full h-full flex items-center justify-center p-3 mt-6 gap-6'>
                         <img src={logo} className='w-[100px] md:w-[150px] xl:w-[200px] ' alt="" />
-                        <h5 className='font-medium'>By providing executives with a clear understanding of progress, they can reach their corporate goals, allowing them to make informed, strategic decisions based on unbiased information. In addition, we promote clarity, alignment, and success throughout the organization by simplifying and aggregating complex business processes.</h5>
+                        <h5 className='font-medium'>By providing executives with a clear understanding of progress, they can reach their corporate goals, allowing them to make informed, strategic decisions based on unbiased information. In addition, we promote clarity, alignment, and success throughout the organization by simplifying complex business processes.</h5>
                     </div>
-                    <h3 className='text-black text-center mt-6 mb-6'>Cascade Clarity prioritizes achieving outcomes above all else.</h3>
+                    <h3 className='text-black text-center mt-6 mb-6'>Cascade Clarity prioritizes achieving outcomes above all else...</h3>
                     <div className='w-full h-full grid grid-cols-3  items-center justify-center gap-6 '>
-                        <div className='flex items-center justify-center mt-6 mb-6 gap-3'>
+                        <div className='flex items-center justify-center mt-6 mb-6 gap-3 min-w-[250px] bg-white shadow-xl p-2 pt-4 pb-4 rounded-xl hover:shadow-black/30 transition-all ease-in-out duration-500'>
                             <img src={logo1} alt="" />
                             <div className='w-1/2'>
                                 <h6 className='font-bold text-xl'>Goals-Oriented</h6>
-                                <p>We strive to achieve specific, measurable outcomes.</p>
+                                <p>We strive to achieve specific, measurable outcomes</p>
                             </div>
                         </div>
-                        <div className='flex items-center justify-center mt-6 mb-6 gap-3'>
+                        <div className='flex items-center justify-center mt-6 mb-6 gap-3 min-w-[250px] bg-white shadow-xl p-2 pt-4 pb-4 rounded-xl hover:shadow-black/30 transition-all ease-in-out duration-500'>
                             <img src={logo2} alt="" />
                             <div className='w-1/2'>
                                 <h6 className='font-bold text-xl'>Data-Driven</h6>
                                 <p>We rely on data and objective analytics</p>
                             </div>
                         </div>
-                        <div className='flex items-center justify-center mt-6 mb-6 gap-3'>
+                        <div className='flex items-center justify-center mt-6 mb-6 gap-3 min-w-[250px] bg-white shadow-xl p-2 pt-4 pb-4 rounded-xl hover:shadow-black/30 transition-all ease-in-out duration-500'>
                             <img src={logo3} alt="" />
                             <div className='w-1/2'>
                                 <h6 className='font-bold text-xl'>Client-Centric</h6>
@@ -82,19 +83,19 @@ const Whycascade = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full flex items-center justify-center mt-10 mb-10'>
-                        <div className='flex items-center w-1/3 justify-center  gap-3'>
+                    <div className='w-full flex items-center justify-center gap-8 '>
+                        <div className='flex items-center w-1/3 justify-center  gap-3 min-w-[250px] bg-white shadow-xl p-2 pt-4 pb-4 rounded-xl hover:shadow-black/30 transition-all ease-in-out duration-500'>
                             <img src={logo4} alt="" />
                             <div >
                                 <h6 className='font-bold text-xl'>Metrics-Driven</h6>
                                 <p className='w-2/3'>We obtain transparent objective KPIs and Key Results</p>
                             </div>
                         </div>
-                        <div className='flex items-center w-1/3 justify-center  gap-3'>
+                        <div className='flex items-center w-1/3 justify-center  gap-3 min-w-[250px] bg-white shadow-xl p-2 pt-4 pb-4 rounded-xl hover:shadow-black/30 transition-all ease-in-out duration-500'>
                             <img src={logo5} alt="" />
                             <div >
                                 <h6 className='font-bold text-xl'>Results-Oriented Culture</h6>
-                                <p className='w-2/3 font-light'>The consulting firm fosters a culture that prioritizes results & rewards employees who consistently deliver outcomes for their clients</p>
+                                <p className='w-3/3 font-light'>We prioritize results and reward employees who consistently deliver outcomes for their clients.</p>
                             </div>
                         </div>
                     </div>
@@ -102,11 +103,14 @@ const Whycascade = () => {
                 </div>
             </div>
             <div className='w-full h-full relative flex items-center justify-center'>
-                <div className='absolute w-[80%]'>
-                    <h3>
-                        “Working with John and his team is like a breath of fresh air. In less than three months, productivity increased, employees were happier, and I had saved money while streamlining my processes via automation."
-                    </h3>
-                    <h1> — CEO, Big Enterprise</h1>
+                <div className='absolute h-full flex flex-col items-center justify-center min-h-[350px]  w-[80%]'>
+                    <div className='w-full flex gap-6 items-center justify-center'>
+                        <img src={CEOLogo} className='w-[300px]' alt="" />
+                        <h3 className='mb-6 text-4xl'>
+                            "John and his team at Cascade Clarity deliver extraordinary value making every dollar spent worth it. Their professionalism, attention to detail, and commitment to excellence shine through in every interaction. I consider Cascade Clarity a strategic partner and highly recommend engaging with John and his team to help with your challenging corporate initiatives."
+                        </h3>
+                    </div>
+                    <h1 className=''> – Pam Glick, CEO of Lumena Inc</h1>
                 </div>
                 <img src={FooterImg} alt="" />
             </div>
