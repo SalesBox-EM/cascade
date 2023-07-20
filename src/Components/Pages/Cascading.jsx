@@ -231,7 +231,7 @@ const Cascading = () => {
                         <h6 className='text-lg'>Cascade Clarity surfaces and validates departmental ratios to highlight areas of extraordinary expense. Activities include working with Finance and individual departments to create a Ratio Scorecard to include but not limited to:
                         </h6>
                         <ul className='text-[#215488] font-normal list-disc p-5'>
-                            <li>      Sales Expense / Total Revenue
+                            <li> Sales Expense / Total Revenue
                             </li>
                             <li className=''>Marketing Expense / Total Revenue
                             </li>
@@ -248,23 +248,60 @@ const Cascading = () => {
                     </div>
                 </div>
             </div>
-            <div ref={scrollRef7} className='flex flex-col w-full items-center justify-center overflow-hidden  h-full'>
-                <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6 mb-6   h-full flex items-start justify-around gap-10'>
+            <div ref={scrollRef7} className=' lg:flex hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
+                <div className='lg:w-[80%] w-[100%] lg:p-10 h-full flex items-start justify-around gap-10'>
                     <div className=' '>
-                        <img src={person3} className=' max-w-[800px] hidden lg:flex' alt="" />
+                        <img src={person3} className=' w-full min-w-[600px] ' alt="" />
                     </div>
-                    <div className='lg:w-2/4  relative'>
+                    <div className='lg:w-3/4  relative'>
                         <h1 className='text-[#215488]'>Streamline
                         </h1>
                         <h1 className='text-[#215488] lg:mb-3 mb-6'> Processes</h1>
-                        <img src={underLine} className='lg:min-w-[630px] min-w-[400px] absolute lg:right-[-250px]    right-[-150px] ' alt="" />
-
+                        <img src={underLine} className='2xl:min-w-[630px] lg:min-w-[500px] xl:min-w-[560px] absolute lg:right-[-250px]    right-[-150px] ' alt="" />
                         <h6 className='mt-10 lg:text-2xl  mb-3  font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
+                        <div className=''>
+                            <h4 className='text-[#215488] font-semibold text-lg mt-3 flex '>
+                                Cascade Clarity focuses on improving business processes by crossing organizational boundaries  and providing unbiased collaboration and facilitation. Our activities include:
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div className='lg:w-[70%] -mt-20 mb-10 w-[100%]'>
+                    <ul className='list-disc mt-3 ml-3'>
+                        <li>  Set Clear Objectives focusing on desired business outcomes
+                        </li>
+                        <li> Identify and Map Processes
+                        </li>
+                        <li> Leverage technology to automate manual tasks and digitize processes wherever possible
+                        </li>
+                        <li> Foster Collaboration and Communication</li>
+                    </ul>
+                    <h2 className='text-2xl mb-2 mt-2 '>
+                        We tailor our approach to achieve improved outcomes.
+                    </h2>
+                    <HashLink to="/SmartTech/#Methodology">
+                        <h5 className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                    </HashLink>
+                </div>
+
+            </div>
+
+            <div className='flex lg:hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
+                <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6 mb-6   h-full flex flex-col items-center justify-center '>
+                    <div className='lg:w-2/4 flex items-center justify-center flex-col  relative'>
+                        <h1 className='text-[#215488] mb-3'>Streamline Processes
+                        </h1>
+
+                    </div>
+                    <div className='flex items-center justify-center '>
+                        <img src={person3} className=' w-[90%] ' alt="" />
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col w-full items-center  h-full'>
+            <div className='flex flex-col lg:hidden w-full items-center  h-full'>
                 <div className='lg:w-[80%] w-[90%] -mt-16  lg:p-10 p-6   h-full  gap-10'>
+                    <h6 className=' lg:text-2xl  mb-3 mt-6   font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
+
                     <h4 className='text-[#215488] font-semibold hidden lg:flex text-lg'>
                         Cascade Clarity focuses on improving business processes by crossing organizational boundaries
                     </h4>
