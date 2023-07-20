@@ -30,9 +30,9 @@ import card13 from '../Assets/13.png'
 import card14 from '../Assets/14.png'
 import Insight from './Inight'
 
-const UnderJon = () => {
+const UnderJohn = () => {
     return (
-        <div className='w-full h-full mt-10 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
+        <div className='w-full h-full md:mt-10 mt-6 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
             <div className='w-[95%] lg:w-[85%] relative grid grid-cols-2 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
                 <div className='w-full max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
                     <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl text-start'>Building Purpose Driven Businesses</h1>
@@ -118,4 +118,4 @@ const UnderJon = () => {
     )
 }
 
-export default UnderJon
+export default UnderJohn

@@ -19,7 +19,7 @@ const Footer = () => {
                     <h4 className='text-sm  lg:text-xl tracking-tight w-[100%] md:w-[75%] text-gray-400'>
                         Cascade Clarity creates company cohesion and empowers executives, allowing organizations and people to achieve peak potential.
                         <span className="inline-flex items-center">
-                            <a href="https://www.linkedin.com/in/cuellar/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/company/cascadeclarity-ai" target="_blank" rel="noopener noreferrer">
                                 <img src={LinkedIn} alt="" className="ml-1 w-4 h-4" />
                             </a>
                         </span>

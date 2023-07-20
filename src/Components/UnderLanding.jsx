@@ -7,18 +7,18 @@ import { HashLink } from 'react-router-hash-link';
 const UnderLanding = () => {
 	return <div className='w-full   bg-gradient-to-b  flex flex-col items-center justify-center h-full'>
 		<div className='w-full bg-gradient-to-b from-white to-[#C4E6E0] h-fit flex flex-col items-center justify-center '>
-			<h4 className='text-black/80 text-center lg:mt-16 hidden lg:flex    '>
+			<h4 className='text-black/80 text-center mt-6 hidden lg:flex    '>
 				Achieve your Corporate Objectives with C-suite facilitation, cross-organizational
 			</h4>
 			<h4 className='text-black/80 text-center mb-16 hidden lg:flex'>
 				engagement, and integrated, data-driven, AI solutions.
 			</h4>
-			<h4 className='text-black/80 text-center p-6 lg:mt-16 flex lg:hidden    '>
+			<h4 className='text-black/80 text-center p-6  flex lg:hidden    '>
 				Achieve your Corporate Objectives with C-suite facilitation, cross-organizational engagement, and integrated, data-driven, AI solutions.
 			</h4>
 
 		</div>
-		<img src={Card} className='w-full h-full min-h-[35vh]     object-cover   ' alt="" />
+		<img src={Card} className='w-full h-full min-h-[35vh] hidden md:flex      object-cover   ' alt="" />
 		<div className='w-full h-full  flex relative items-center justify-center'>
 			<div className='absolute z-40 h-fit flex flex-col gap-2 text-white xl:top-[30%] left-[30%] lg:left-[50%]'>
 				<h1 className='2xl:text-[80px] lg:text-[65px] text-[25px]'>Gain Clarity</h1>

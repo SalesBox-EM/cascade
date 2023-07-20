@@ -67,13 +67,16 @@ const Landing = () => {
 			</div>
 			<div className='h-full lg:mt-[16px] relative w-[100%] p-6 lg:p-16 flex flex-col items-start justify-center gap-10 z-40   overflow-hidden'>
 				<div className=' w-full '>
-					<h1 className='z-40 '>
+					<h1 className='z-40 hidden lg:flex '>
 						Consulting Services for
 					</h1>
-					<h1 className='z-40'>
-						CEOs & Senior Leadership
-						<img src={UnderLine} className='left-[-100px] lg:w-[60%] w-[80%]  mt-4  absolute' alt="" />
+					<h1 className='z-40 flex lg:hidden '>
+						Consulting Services for CEOs & Senior Leadership
 					</h1>
+					<h1 className='z-40 hidden lg:flex'>
+						CEOs & Senior Leadership
+					</h1>
+					<img src={UnderLine} className='left-[-100px] lg:w-[60%] w-[80%]  mt-4  absolute' alt="" />
 				</div>
 				<div>
 					<h3 className=''>

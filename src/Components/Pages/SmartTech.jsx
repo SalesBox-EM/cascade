@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar'
-import bgimage from '../../Assets/Group 269061.png'
+import bgimage from '../../Assets/div.tp-bgimg22.png'
 import underLine from '../../Assets/UnderLine.svg'
 import logo1 from '../../Assets/robotic-arm 1.svg'
 import logo2 from '../../Assets/gears-set 1.svg'
@@ -13,6 +13,8 @@ import logo8 from '../../Assets/Group 26861.svg'
 import logo9 from '../../Assets/Group 26859.svg'
 import logo10 from '../../Assets/Group 26860.svg'
 import Footer from '../Footer/Footer'
+import UnderLine from '../../Assets/UnderLine.svg'
+
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'
@@ -89,31 +91,40 @@ const SmartTech = () => {
         }
     }, [location.search]);
     return (
-        <div id='homeTech' ref={scrollRefHome} className='w-full h-full'>
+        <div id='homeTech' ref={scrollRefHome} className='w-full h-full overflow-hidden'>
             <NavBar />
-            <div className=' w-full h-full relative'>
-                <div className='flex flex-col top-[72%] gap-6 left-[8%] absolute'>
+            <div className=' w-full h-full relative mb-10'>
+                <div className='h-full mt-[16px] absolute w-[100%] p-6 sm:p-16 flex flex-col items-start justify-center gap-3 z-40   overflow-hidden'>
+                    <div className=' w-full '>
+                        <h1 className='z-40 '>
+                            Smart
+                        </h1>
+                        <h1 className='z-40 mb-3'>
+                            Technology
+                        </h1>
+                        <img src={UnderLine} className='left-[-100px] lg:w-[40%]  md:w-[60%] mt-3  w-[80%]    absolute' alt="" />
+                    </div>
                     <HashLink smooth to="/SmartTech/#Definition">
-                        <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Definition & Approach</h5>
+                        <h5 className='text-lg md:text-xl xl:text-3xl mt-6 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Definition & Approach</h5>
                     </HashLink>
                     <HashLink smooth to="/SmartTech/#Methodology">
                         <h5 className='text-lg md:text-xl xl:text-3xl 2xl:text-[40px] font-semibold text-white hover:text-[#215488] transition-all ease-in duration-300 '>Clarity Methodology</h5>
                     </HashLink>
-
                 </div>
-                <img src={bgimage} className='pt-[96px] min-h-[500px] w-full  ' alt="" />
+
+                <img src={bgimage} className='pt-[96px] min-h-[500px] w-full object-cover  ' alt="" />
             </div>
 
-            <div id='Definition' ref={scrollRef4} className='w-fit p-10 pt-[96px] relative  h-full'>
-                <h1 className='text-[#215488]  ml-20'>Definition</h1>
-                <h1 className='text-[#215488] -mt-3  ml-20'>&Approach</h1>
+            <div id='Definition' ref={scrollRef4} className='w-fit p-10  pt-[96px] mt-[-96px] relative  h-full'>
+                <h1 className='text-[#215488]  lg:ml-20'>Definition</h1>
+                <h1 className='text-[#215488] lg:-mt-3  lg:ml-20'>&Approach</h1>
                 <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
             </div>
             <div className='h-full w-full flex flex-col items-center justify-center'>
-                <div className='w-[80%] h-full flex flex-col items-center'>
-                    <h5 className='mt-6'>At Cascade Clarity, we use smart technology to bridge the gap between desired outcomes and actual results.</h5>
-                    <h2 className='text-3xl font-bold text-[#0D223A] mt-10 '>Smart Technology incorporates</h2>
-                    <div className='w-full h-full grid lg:grid-cols-3 grid-cols-2 gap-16 justify-center items-center p-10 '>
+                <div className='lg:w-[80%] w-[90%] h-full flex flex-col items-center'>
+                    <h5 className='lg:mt-6 p-6'>At Cascade Clarity, we use smart technology to bridge the gap between desired outcomes and actual results.</h5>
+                    <h2 className='text-3xl font-bold text-[#0D223A] lg:mt-10 mt-6 text-center '>Smart Technology incorporates</h2>
+                    <div className='w-full h-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-16 gap-6 justify-center items-center p-10 '>
                         <div className='flex items-center gap-4 min-w-[250px] bg-white shadow-xl p-6 rounded-xl hover:shadow-black/30 transition-all duration-500 ease-in-out shadow-black/10'>
                             <img src={logo1} alt="" />
                             <h5>Robotic Process Automation</h5>
@@ -141,16 +152,16 @@ const SmartTech = () => {
                     </div>
                 </div>
             </div>
-            <div ref={scrollRef5} className='w-fit p-20 -mt-6 relative  h-full'>
-                <h1 className='text-[#215488]  ml-20'>Clarity </h1>
-                <h1 className='text-[#215488] -mt-3  ml-20'>Methodology</h1>
-                <img src={underLine} className='absolute w-[90%] mt-6 left-0' alt="" />
+            <div ref={scrollRef5} className='w-fit lg:p-20 lg:-mt-6 p-6 relative  h-full'>
+                <h1 className='text-[#215488]  lg:ml-20'>Clarity </h1>
+                <h1 className='text-[#215488] lg:-mt-3  lg:ml-20'>Methodology</h1>
+                <img src={underLine} className='absolute w-[90%] lg:mt-6 mt-3 left-0' alt="" />
             </div>
             <div className='h-full w-full  flex flex-col items-center justify-center'>
-                <div className='w-[80%] h-full flex flex-col items-center'>
+                <div className='w-[90%] lg:w-[80%] h-full flex flex-col items-center'>
                     <h2 className='text-3xl font-bold text-[#0D223A]  '>4 Phase Methodology</h2>
-                    <div className='w-full h-full grid lg:grid-cols-2 grid-cols-1  gap-12 justify-center items-center p-10 mb-10 '>
-                        <div className='flex items-start h-full w-full gap-4'>
+                    <div className='w-full h-full grid lg:grid-cols-2 grid-cols-1  gap-12 justify-center items-center lg:p-10 p-6 mb-10 '>
+                        <div className='flex flex-col lg:flex-row items-center justify-center h-full w-full gap-4'>
                             <img src={logo7} alt="" className='bg-white shadow-xl shadow-black/20 rounded-full' />
                             <div>
                                 <h5 className='font-bold p-1'>
@@ -161,8 +172,8 @@ const SmartTech = () => {
                                 </h5>
                             </div>
                         </div>
+                        <div className='flex flex-col lg:flex-row items-center h-full w-full gap-4'>
 
-                        <div className='flex items-start h-full w-full gap-4'>
                             <img src={logo8} alt="" className='bg-white shadow-xl shadow-black/20 rounded-full' />
                             <div className=''>
                                 <h5 className='font-bold p-1'>
@@ -173,7 +184,7 @@ const SmartTech = () => {
                                 </h5>
                             </div>
                         </div>
-                        <div className='flex items-start h-full w-full gap-4'>
+                        <div className='flex flex-col lg:flex-row items-center h-full w-full gap-4'>
                             <img src={logo9} alt="" className='bg-white shadow-xl shadow-black/20 rounded-full' />
                             <div>
                                 <h5 className='font-bold p-1'>3.Implementation, Analysis, and Iteration
@@ -182,7 +193,7 @@ const SmartTech = () => {
                                 </h5>
                             </div>
                         </div>
-                        <div className='flex items-start h-full w-full gap-4'>
+                        <div className='flex flex-col lg:flex-row items-center h-full w-full gap-4'>
                             <img src={logo10} alt="" className='bg-white shadow-xl shadow-black/20 rounded-full' />
                             <div className=''>
                                 <h5 className='font-bold p-1'>
@@ -193,7 +204,6 @@ const SmartTech = () => {
                                 </h5>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

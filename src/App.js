@@ -1,7 +1,7 @@
-import Jhon from './Components/Jhon';
+import John from './Components/John';
 import Landing from './Components/Landing';
 import NavBar from './Components/NavBar';
-import UnderJon from './Components/UnderJon';
+import UnderJohn from './Components/UnderJohn';
 import UnderLanding from './Components/UnderLanding';
 import footer from './Assets/Fotter.svg';
 import Footer from './Components/Footer/Footer';
@@ -11,8 +11,8 @@ function App() {
 		<div className='App h-full '>
 			<Landing />
 			<UnderLanding />
-			<Jhon />
-			<UnderJon />
+			<John />
+			<UnderJohn />
 			<Footer />
 		</div>
 	);

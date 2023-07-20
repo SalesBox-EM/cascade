@@ -144,10 +144,10 @@ const NavBar = () => {
                         <Turn onMouseEnter={handleMouseEnterHamburger} toggled={burger} toggle={setBurgerParent} />
                         {/* <img onMouseEnter={handleMouseEnterHamburger} className='cursor-pointer' onClick={handleBurger} src={Burger} alt="" /> */}
                         <div
-                            className={`w-[280px] absolute h-[380px] lg:h-[190px] gap-5 bg-[#0c2d4e] -right-[140%] lg:-right-[200%]  top-[72px]  flex-col items-start p-10 justify-center ${burger ? 'flex' : 'hidden'
+                            className={`w-[280px] absolute h-[380px] lg:h-[190px] gap-5 bg-[#0c2d4e] -right-[100%] lg:-right-[200%]  top-[72px]  flex-col items-start p-4 lg:p-10 justify-center ${burger ? 'flex' : 'hidden'
                                 }`}
                         >
-                            <div className='grid gap-5 lg:hidden'>
+                            <div className='grid gap-5 pl-5 lg:hidden'>
                                 <NavHashLink
                                     to="/Organizational/#homeorganize"
                                     className={`${location.pathname}${location.hash}` === '/Organizational/#homeorganize' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
@@ -163,19 +163,28 @@ const NavBar = () => {
                                     className={`${location.pathname}${location.hash}` === '/SmartTech/#homeTech' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
                                     Smart Technology
                                 </NavHashLink>
-                                <div className='w-full border-b border-white'>
+                                <div className='w-full border-b pl-5 border-white'>
 
                                 </div>
                             </div>
-                            <HashLink to="/Whycascade/#homewhy">
-                                <h5 className='text-white text-lg font-normal'>Why Cascade Clarity</h5>
-                            </HashLink>
-                            <HashLink to="/Insights/#homeInsights">
-                                <h5 className='text-white text-lg font-normal'>Insights</h5>
-                            </HashLink>
-                            <HashLink to="/Connect/#homeConnect">
-                                <h5 className='text-white text-lg font-normal'>Let's Connect</h5>
-                            </HashLink>
+                            <div className='grid gap-5 pl-5 lg:pr-0 '>
+                                <NavHashLink
+                                    to="/Whycascade/#homewhy"
+                                    className={`${location.pathname}${location.hash}` === '/Whycascade/#homewhy' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
+                                    Why Cascade Clarity
+                                </NavHashLink>
+                                <NavHashLink
+                                    to="/Insights/#homeInsights"
+                                    className={`${location.pathname}${location.hash}` === '/Insights/#homeInsights' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
+                                    Insights
+                                </NavHashLink>
+                                <NavHashLink
+                                    to="/Connect/#homeConnect"
+                                    className={`${location.pathname}${location.hash}` === '/Connect/#homeConnect' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
+                                    Let's Connect
+                                </NavHashLink>
+                            </div>
+
 
                         </div>
                     </div>

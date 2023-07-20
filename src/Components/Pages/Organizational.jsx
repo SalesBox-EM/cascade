@@ -21,8 +21,8 @@ const Organizational = () => {
     return (
         <div id='homeorganize' ref={scrollRefHome} className='w-full h-full overflow-hidden '>
             <NavBar />
-            <div className=' w-full h-full relative'>
-                <div className='h-full lg:mt-[16px] absolute w-[100%] p-6 sm:p-16 flex flex-col items-start justify-center gap-10 z-40   overflow-hidden'>
+            <div className=' w-full h-full relative mb-10'>
+                <div className='h-full lg:mt-[16px] mt-[70px] absolute w-[100%] p-6 sm:p-16 flex flex-col items-start justify-center gap-10 z-40   overflow-hidden'>
                     <div className=' w-full '>
                         <h1 className='z-40 '>
                             Organizational
@@ -49,9 +49,9 @@ const Organizational = () => {
             </div>
 
             <div id='Silo' >
-                <h1 className=' text-center  pt-[96px] mb-4 text-[#215488]'>The Silo Effect</h1>
+                <h1 className=' text-center  pt-[96px] mt-[-96px] mb-4 text-[#215488]'>The Silo Effect</h1>
             </div>
-            <img src={UnderLine} className='w-[64%]' alt="" />
+            <img src={UnderLine} className='w-[64%] hidden lg:flex' alt="" />
             <div ref={scrollRef1} className='w-full h-full flex flex-col items-center justify-center'>
                 <div className='w-[80%] h-full flex flex-col md:flex-row items-center  p-6 gap-10'>
                     <img src={LightBulp} className='xl:w-[340px] w-[150px]' alt="" />
@@ -68,13 +68,13 @@ const Organizational = () => {
                     </div>
                 </div>
             </div>
-            <div ref={scrollRef2} className='w-full h-full relative mb-6'>
+            <div id='Data' ref={scrollRef2} className='w-full h-full relative pt-[96px] mt-[-96px] mb-6'>
                 <h1 className=' text-center mt-12  text-[#215488]'>Data Visibility </h1>
-                <img src={UnderLine} className='w-[63%] absolute right-0 -bottom-[20px]  ' alt="" />
+                <img src={UnderLine} className='w-[63%] absolute right-0 -bottom-[20px] hidden lg:flex  ' alt="" />
             </div>
             <div className='w-full h-full flex flex-col items-center justify-center mb-6'>
                 <div className='w-[85%] h-full flex flex-col lg:flex-row items-center  p-6 gap-10'>
-                    <img src={GettyImage} className='xl:w-[340px]  w-[180px]' alt="" />
+                    <img src={GettyImage} className='xl:w-[340px]  w-full' alt="" />
                     <div className='flex flex-col gap-6 text-xl w-full'>
                         <p>
                             Unbiased, intelligible, and summarized data for strategic decision-making can be challenging to obtain because of the following reasons:
@@ -108,9 +108,9 @@ const Organizational = () => {
                 <div className='w-[80%] h-full flex flex-col md:flex-row items-center justify-between  p-6 gap-10'>
                     <div className=' flex flex-col relative justify-center items-start'>
                         <div className='flex flex-col items-start relative w-full  '>
-                            <h1 className=' text-center   text-[#215488] h-fit  mt-24'>Cascading </h1>
+                            <h1 className=' text-center   text-[#215488] h-fit  lg:mt-24'>Cascading </h1>
                             <h1 className=' text-center   text-[#215488] h-fit mb-3'>Objectives </h1>
-                            <img src={UnderLine} className='absolute bottom-0   left-[-200px] ' alt="" />
+                            <img src={UnderLine} className='absolute bottom-0   left-[-200px] hidden lg:flex ' alt="" />
                         </div>
                         <h5 className='mt-10 mb-3 '>Common Corporate Objectives typically
                             take some form of:

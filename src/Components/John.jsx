@@ -1,9 +1,9 @@
 import React from 'react'
 import Jon from '../Assets/Group 26883.png'
 import LinkedIn from '../Assets/Group (1).svg'
-const Jhon = () => {
+const John = () => {
     return (
-        <div className='w-full h-full min-h-[30vh]     relative'>
+        <div className='w-full h-full min-h-[30vh] hidden md:flex     relative'>
             <div className='flex absolute  flex-col top-[50px] sm:top-[70px] xl:top-[150px] 2xl:top-[200px]  right-[20%] items-end'>
                 <div className='flex items-center justify-center gap-3'>
                     <h1 className='text-[#4388CE] text-base sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-7xl'>Meet John Cuellar</h1>
@@ -18,4 +18,4 @@ const Jhon = () => {
     )
 }
 
-export default Jhon
+export default John
