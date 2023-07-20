@@ -53,7 +53,7 @@ const Organizational = () => {
             </div>
             <img src={UnderLine} className='w-[64%] hidden lg:flex' alt="" />
             <div ref={scrollRef1} className='w-full h-full flex flex-col items-center justify-center'>
-                <div className='w-[80%] h-full flex flex-col md:flex-row items-center  p-6 gap-10'>
+                <div className='w-[80%] h-full flex flex-col md:flex-row relative items-center  p-6 gap-10'>
                     <img src={LightBulp} className='xl:w-[340px] w-[150px]' alt="" />
                     <div className='flex flex-col gap-6 text-xl'>
                         <p>Through decades of experience, we have gained a deep understanding of the challenges organizational structures can create.
@@ -63,12 +63,12 @@ const Organizational = () => {
                         <p>Cascade Clarity provides an unbiased bridge and engagement mechanism for senior leaders, facilitating cross-organizational gaps while deploying smart technology solutions when needed. </p>
                         <p>The result? Neutral, reliable data and metrics for strategic decision-making.</p>
                         <HashLink to="/Connect/#homeConnect">
-                            <h5 className='hover:text-sky-500 text-sky-700 text-sky font-semibold text-2xl flex items-center justify-center transition-all duration-75 ease-in w-fit gap-1'>Let's Discuss <BsChevronRight className='text-sm' /></h5>
+                            <h5 className='hover:text-sky-500 absolute cursor-pointer  text-sky-700 text-sky font-semibold text-2xl flex items-center justify-center transition-all duration-75 ease-in w-fit gap-1'>Let's Discuss <BsChevronRight className='text-sm' /></h5>
                         </HashLink>
                     </div>
                 </div>
             </div>
-            <div id='Data' ref={scrollRef2} className='w-full h-full relative pt-[96px] mt-[-96px] mb-6'>
+            <div id='Data' ref={scrollRef2} className='w-full h-full relative pt-[96px] z-[20] mt-[-96px] mb-6'>
                 <h1 className=' text-center mt-12  text-[#215488]'>Data Visibility </h1>
                 <img src={UnderLine} className='w-[63%] absolute right-0 -bottom-[20px] hidden lg:flex  ' alt="" />
             </div>
