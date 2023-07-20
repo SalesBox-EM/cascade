@@ -283,9 +283,7 @@ const Cascading = () => {
                         <h5 className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
                     </HashLink>
                 </div>
-
             </div>
-
             <div className='flex lg:hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
                 <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6 mb-6   h-full flex flex-col items-center justify-center '>
                     <div className='lg:w-2/4 flex items-center justify-center flex-col  relative'>
@@ -299,7 +297,7 @@ const Cascading = () => {
                 </div>
             </div>
             <div className='flex flex-col lg:hidden w-full items-center  h-full'>
-                <div className='lg:w-[80%] w-[90%] -mt-16  lg:p-10 p-6   h-full  gap-10'>
+                <div className='lg:w-[80%] w-[90%]   lg:p-10 p-6   h-full  gap-10'>
                     <h6 className=' lg:text-2xl  mb-3 mt-6   font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
 
                     <h4 className='text-[#215488] font-semibold hidden lg:flex text-lg'>

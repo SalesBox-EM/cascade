@@ -13,7 +13,7 @@ const Insight = () => {
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3 '>The Invisible Barrier to Business Breakthroughs</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>Sony once had two separate departments simultaneously working on the same plug without... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                                <h5 className='text-xl  '>Sony once had two separate departments simultaneously working on the same plug without... <p className='whitespace-nowrap ml-1 hover:text-blue-700 font-semibold transition-all duration-300'>Read More</p> </h5>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const Insight = () => {
                                 Adaption</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>Global business leaders face potential replacement as AI threatens to topple many. As a result ... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                                <h5 className='text-xl  '>Global business leaders face potential replacement as AI threatens to topple many. As a result ... <p className='whitespace-nowrap ml-1 font-semibold hover:text-blue-700 transition-all duration-300'>Read More</p> </h5>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Insight = () => {
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3'>Actionable Ideas Need Engaged Execs</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>While tech trends are tipping towards automation, execs must remain present. According to a recent... <a href="/" className='whitespace-nowrap ml-1 hover:text-blue-700 transition-all duration-300'>Read More</a> </h5>
+                                <h5 className='text-xl  '>While tech trends are tipping towards automation, execs must remain present. According to a recent... <p className='whitespace-nowrap font-semibold ml-1 hover:text-blue-700 transition-all duration-300'>Read More</p> </h5>
                             </div>
                         </div>
                         {/* 
