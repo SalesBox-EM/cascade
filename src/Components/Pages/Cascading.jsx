@@ -248,12 +248,29 @@ const Cascading = () => {
                     </div>
                 </div>
             </div>
-            <div ref={scrollRef7} className=' lg:flex hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
+            <div ref={scrollRef7} className=' lg:flex hidden flex-col w-full items-center justify-between 2xl:gap-8 overflow-hidden  h-full'>
                 <div className='lg:w-[80%] w-[100%] lg:p-10 h-full flex items-start justify-around gap-10'>
                     <div className=' '>
-                        <img src={person3} className=' w-full min-w-[600px] ' alt="" />
+                        <img src={person3} className=' w-full min-w-[700px] ' alt="" />
+                        <div className='lg:w-[70%]  mb-10 w-[100%]'>
+                            <ul className='list-disc mt-3 ml-3'>
+                                <li>  Set Clear Objectives focusing on desired business outcomes
+                                </li>
+                                <li> Identify and Map Processes
+                                </li>
+                                <li> Leverage technology to automate manual tasks and digitize processes wherever possible
+                                </li>
+                                <li> Foster Collaboration and Communication</li>
+                            </ul>
+                            <h2 className='text-2xl mb-2 mt-2 '>
+                                We tailor our approach to achieve improved outcomes.
+                            </h2>
+                            <HashLink to="/SmartTech/#Methodology">
+                                <h5 className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
+                            </HashLink>
+                        </div>
                     </div>
-                    <div className='lg:w-3/4  relative'>
+                    <div className='lg:w-3/4 pr-6 pl-6  relative'>
                         <h1 className='text-[#215488]'>Streamline
                         </h1>
                         <h1 className='text-[#215488] lg:mb-3 mb-6'> Processes</h1>
@@ -266,28 +283,12 @@ const Cascading = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-[70%] -mt-20 mb-10 w-[100%]'>
-                    <ul className='list-disc mt-3 ml-3'>
-                        <li>  Set Clear Objectives focusing on desired business outcomes
-                        </li>
-                        <li> Identify and Map Processes
-                        </li>
-                        <li> Leverage technology to automate manual tasks and digitize processes wherever possible
-                        </li>
-                        <li> Foster Collaboration and Communication</li>
-                    </ul>
-                    <h2 className='text-2xl mb-2 mt-2 '>
-                        We tailor our approach to achieve improved outcomes.
-                    </h2>
-                    <HashLink to="/SmartTech/#Methodology">
-                        <h5 className=' text-xl font-bold text-[#215488] hover:text-sky-600 transition-all ease-in duration-300 w-fit '>The Clarity Methodology {'>'}</h5>
-                    </HashLink>
-                </div>
+
             </div>
             <div className='flex lg:hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
-                <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6 mb-6   h-full flex flex-col items-center justify-center '>
+                <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6    h-full flex flex-col items-center justify-center '>
                     <div className='lg:w-2/4 flex items-center justify-center flex-col  relative'>
-                        <h1 className='text-[#215488] mb-3'>Streamline Processes
+                        <h1 className='text-[#215488] mb-3 pr-6 pl-6 w-full text-2xl'>Streamline Processes
                         </h1>
 
                     </div>
@@ -298,7 +299,7 @@ const Cascading = () => {
             </div>
             <div className='flex flex-col lg:hidden w-full items-center  h-full'>
                 <div className='lg:w-[80%] w-[90%]   lg:p-10 p-6   h-full  gap-10'>
-                    <h6 className=' lg:text-2xl  mb-3 mt-6   font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
+                    <h6 className=' lg:text-2xl    font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
 
                     <h4 className='text-[#215488] font-semibold hidden lg:flex text-lg'>
                         Cascade Clarity focuses on improving business processes by crossing organizational boundaries

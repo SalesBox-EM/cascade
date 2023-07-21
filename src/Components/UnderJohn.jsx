@@ -32,24 +32,27 @@ import Insight from './Inight'
 
 const UnderJohn = () => {
     return (
-        <div className='w-full h-full md:mt-10 mt-6 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
-            <div className='w-[95%] lg:w-[85%] relative grid grid-cols-2 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
-                <div className='w-full max-w-[258px] h-full min-h-[200px] max-h-[258px] flex items-center justify-center rounded-lg '>
+        <div className='w-full h-full md:mt-10 lg:mt-6 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
+            <div className='w-full lg:hidden '>
+                <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl  text-center'>Building Purpose Driven Businesses</h1>
+            </div>
+            <div className='w-[95%] lg:w-[85%] relative grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
+                <div className='w-full hidden max-w-[258px] h-full  max-h-[258px] lg:flex items-center justify-center rounded-lg '>
                     <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl text-start'>Building Purpose Driven Businesses</h1>
                 </div>
-                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={first} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card1} alt="" />
                 </div>
-                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={second} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card2} alt="" />
                 </div>
-                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={third} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card3} alt="" />
                 </div>
-                <div className=' p-3 min-h-[200px] group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={fourth} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card4} alt="" />
                 </div>
