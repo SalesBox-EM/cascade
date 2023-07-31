@@ -11,7 +11,6 @@ import person1 from '../../Assets/Image4.png'
 import person2 from '../../Assets/Image5.png'
 import person3 from '../../Assets/Image6.png'
 import UnderLine from '../../Assets/UnderLine.svg'
-
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'
@@ -283,14 +282,12 @@ const Cascading = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
             <div className='flex lg:hidden flex-col w-full items-center justify-center overflow-hidden  h-full'>
                 <div className='lg:w-[80%] w-[100%] lg:p-10 mt-6    h-full flex flex-col items-center justify-center '>
                     <div className='lg:w-2/4 flex items-center justify-center flex-col  relative'>
                         <h1 className='text-[#215488] mb-3 pr-6 pl-6 w-full text-2xl'>Streamline Processes
                         </h1>
-
                     </div>
                     <div className='flex items-center justify-center '>
                         <img src={person3} className=' w-[90%] ' alt="" />
@@ -300,7 +297,6 @@ const Cascading = () => {
             <div className='flex flex-col lg:hidden w-full items-center  h-full'>
                 <div className='lg:w-[80%] w-[90%]   lg:p-10 p-6   h-full  gap-10'>
                     <h6 className=' lg:text-2xl    font-semibold'>Gain clarity into organizational structures and processes to boost efficiency.</h6>
-
                     <h4 className='text-[#215488] font-semibold hidden lg:flex text-lg'>
                         Cascade Clarity focuses on improving business processes by crossing organizational boundaries
                     </h4>

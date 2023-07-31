@@ -1,5 +1,5 @@
 import React from 'react'
-import Jon from '../Assets/Group 26883.png'
+import Jon from '../Assets/Group 26941.png'
 import LinkedIn from '../Assets/Group (1).svg'
 const John = () => {
     return (
