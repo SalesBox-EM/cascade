@@ -10,6 +10,9 @@ import Whycascade from './Components/Pages/Whycascade';
 import { initializeApp } from 'firebase/app';
 import Connect from './Components/Pages/Connect';
 import Insights from './Components/Pages/Insights';
+import Barrier from './Components/Pages/Blogs.jsx/Barrier';
+import Leadership from './Components/Pages/Blogs.jsx/Leadership';
+import Execs from './Components/Pages/Blogs.jsx/Execs';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -57,6 +60,18 @@ root.render(
 				<Route
 					path='/Insights'
 					element={<Insights />}
+				/>
+				<Route
+					path='/Blog_BusinessBreakthroughs'
+					element={<Barrier />}
+				/>
+				<Route
+					path='/Blog_LeadershipAdaption'
+					element={<Leadership />}
+				/>
+				<Route
+					path='/Blog_EngagedExecs'
+					element={<Execs />}
 				/>
 			</Routes>
 		</BrowserRouter>

@@ -2,6 +2,7 @@ import React from 'react'
 import ImageOne from '../Assets/1.jpg.png'
 import ImageTwo from '../Assets/1.jpg (1).png'
 import ImageThree from '../Assets/1.jpg (2).png'
+import { HashLink } from 'react-router-hash-link'
 const Insight = () => {
     return (
         <div className='w-full  h-full flex items-center justify-center'>
@@ -13,7 +14,10 @@ const Insight = () => {
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3 '>The Invisible Barrier to Business Breakthroughs</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>Sony once had two separate departments simultaneously working on the same plug without... <p className='whitespace-nowrap ml-1 hover:text-blue-700 font-semibold transition-all duration-300'>Read More</p> </h5>
+                                <h5 className='text-xl italic  '>In today's competitive corporate landscape, consistent breakthroughs are essential for organizations to stay ahead. However ...
+                                    <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_BusinessBreakthroughs/#head'}>Read More</HashLink>
+
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -23,8 +27,8 @@ const Insight = () => {
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3 '>AI & Beyond: Leadership
                                 Adaption</h3>
                             <h6>May 10, 2023</h6>
-                            <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>Global business leaders face potential replacement as AI threatens to topple many. As a result ... <p className='whitespace-nowrap ml-1 font-semibold hover:text-blue-700 transition-all duration-300'>Read More</p> </h5>
+                            <div className='inline-flex  items-baseline flex-wrap '>
+                                <h5 className='text-xl italic   '>Artificial Intelligence (AI) technology threatens to topple businesses and execs that refuse to adapt to change. But with these advancements...  <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_LeadershipAdaption/#head'}>Read More</HashLink> </h5>
                             </div>
                         </div>
                     </div>
@@ -34,7 +38,7 @@ const Insight = () => {
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3'>Actionable Ideas Need Engaged Execs</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl  '>While tech trends are tipping towards automation, execs must remain present. According to a recent... <p className='whitespace-nowrap font-semibold ml-1 hover:text-blue-700 transition-all duration-300'>Read More</p> </h5>
+                                <h5 className='text-xl italic  '>Staying relevant in the ever-changing business landscape requires ongoing innovation and adaptation. Often leveraging the latest ... <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_EngagedExecs/#head'}>Read More</HashLink> </h5>
                             </div>
                         </div>
                         {/* 
