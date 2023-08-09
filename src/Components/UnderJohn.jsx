@@ -40,19 +40,19 @@ const UnderJohn = () => {
                 <div className='w-full hidden max-w-[258px] h-full  max-h-[258px] lg:flex items-center justify-center rounded-lg '>
                     <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl text-start'>Building Purpose Driven Businesses</h1>
                 </div>
-                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={first} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card1} alt="" />
                 </div>
-                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={second} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card2} alt="" />
                 </div>
-                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={third} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card3} alt="" />
                 </div>
-                <div className=' p-3  group bg-white relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={fourth} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card4} alt="" />
                 </div>
