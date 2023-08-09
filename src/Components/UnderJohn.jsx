@@ -64,7 +64,7 @@ const UnderJohn = () => {
                     World-Class Brands
                 </h3>
             </div>
-            <div className='w-[95%] lg:w-[85%]   relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
+            <div className='w-[95%] lg:w-[85%] mt-20 md:mt-0   relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
                 <div className=' w-[100%]   grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
                     <div className='group  bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
