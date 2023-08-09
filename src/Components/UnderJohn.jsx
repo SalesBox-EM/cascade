@@ -107,7 +107,7 @@ const UnderJohn = () => {
                         <img className='opacity-0 group-hover:opacity-100 absolute top-0 w-full h-full transition-opacity duration-700 ' src={card14} alt="" />
                     </div>
                 </div>
-                <div className='w-[30%]  h-full'>
+                <div className='w-[30%] hidden lg:flex  h-full'>
                     <h3 className='text-black text-2xl leading-loose hidden lg:flex'>
                         A Career Implementing Simple Solutions to Solve Complex Problems for
                         World-Class Brands
