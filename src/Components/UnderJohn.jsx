@@ -40,19 +40,19 @@ const UnderJohn = () => {
                 <div className='w-full hidden max-w-[258px] h-full  max-h-[258px] lg:flex items-center justify-center rounded-lg '>
                     <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl text-start'>Building Purpose Driven Businesses</h1>
                 </div>
-                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[150px] max-h-[150px] md:max-w-[258px] md:max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={first} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card1} alt="" />
                 </div>
-                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[150px] max-h-[150px] md:max-w-[258px] md:max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={second} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card2} alt="" />
                 </div>
-                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[150px] max-h-[150px] md:max-w-[258px] md:max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={third} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card3} alt="" />
                 </div>
-                <div className=' p-3  group bg-white max-w-[258px] max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
+                <div className=' p-3  group bg-white max-w-[150px] max-h-[150px] md:max-w-[258px] md:max-h-[258px] relative  shadow-lg shadow-black/50 w-full h-full  flex items-center justify-center rounded-lg '>
                     <img className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ' src={fourth} alt="" />
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card4} alt="" />
                 </div>
@@ -64,7 +64,7 @@ const UnderJohn = () => {
                     World-Class Brands
                 </h3>
             </div>
-            <div className='w-[95%] lg:w-[85%] mt-20 md:mt-0   relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
+            <div className='w-[95%] lg:w-[85%] mt-8 md:mt-0   relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
                 <div className=' w-[100%]   grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
                     <div className='group  bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
