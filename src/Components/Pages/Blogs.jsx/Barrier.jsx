@@ -11,9 +11,9 @@ const Barrier = () => {
             <NavBar />
             <div id='head' className='w-full h-full  flex flex-col items-center justify-center'>
 
-                <img src={ImageOne} className='xl:w-[80%] max-w-[1261px] w-[95%] mt-[130px]    object-cover     ' alt="" />
+                <img src={ImageOne} className='xl:w-[80%] max-w-[1061px] w-[95%] mt-[130px]  max-h-[500px]    object-cover     ' alt="" />
 
-                <div className='xl:w-[80%] max-w-[1261px] w-[95%] h-full flex flex-col mt-6 gap-6'>
+                <div className='xl:w-[80%] max-w-[1061px] w-[95%] h-full flex flex-col mt-6 gap-6'>
                     <h1 className='text-black text-xl md:text-2xl xl:text-3xl 2xl:text-4xl  '>The Invisible Barrier to Business Breakthroughs
                     </h1>
                     <p className='italic'>In today's competitive corporate landscape, consistent breakthroughs are essential for organizations to stay ahead. However, despite abundant talent and resources, many companies encounter obstacles that stifle innovation and hinder growth, such as the silo effect.
@@ -78,9 +78,9 @@ const Barrier = () => {
                         <p>
                             The silo effect may be invisible, but its impact on organizational growth is undeniable. C-suite executives and business leaders play a critical role in removing such silos. Executives must lead by example, demonstrating the value of collaboration and breaking down barriers. For many organizations, an outsider's perspective may also be required to identify and eliminate silos properly.
                         </p>
+                        <p className='mt-1'>This approach also includes leadership's active involvement through a top-down approach to implementing supporting systems and processes. A commitment to the process sets the tone for a cohesive and agile organization.
+                        </p>
                     </div>
-                    <p>This approach also includes leadership's active involvement through a top-down approach to implementing supporting systems and processes. A commitment to the process sets the tone for a cohesive and agile organization.
-                    </p>
                     <div className='mb-10 italic'>
                         <h3 className='text-xl  2xl:text-2xl text-black font-semibold  mb-1'>Need support?
                         </h3>

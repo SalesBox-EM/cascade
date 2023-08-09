@@ -12,9 +12,9 @@ const Leadership = () => {
             <NavBar />
             <div className='w-full h-full  flex flex-col items-center justify-center'>
 
-                <img src={ImageTwo} className='xl:w-[80%] max-w-[1261px] w-[95%] mt-[130px]    object-cover     ' alt="" />
+                <img src={ImageTwo} className='xl:w-[80%] max-h-[500px] max-w-[1061px] w-[95%] mt-[130px]    object-cover     ' alt="" />
 
-                <div className='xl:w-[80%] max-w-[1261px] w-[95%] h-full flex flex-col mt-6 gap-6'>
+                <div className='xl:w-[80%] max-w-[1061px] w-[95%] h-full flex flex-col mt-6 gap-6'>
                     <h1 className='text-black text-xl md:text-2xl xl:text-3xl 2xl:text-4xl  '>AI & Beyond: Leadership Adaption
 
                     </h1>
@@ -32,7 +32,7 @@ const Leadership = () => {
                             <a href="https://www.theguardian.com/books/2015/oct/17/the-silo-effect-why-putting-everything-in-its-place-isnt-such-a-bright-idea-gillian-tett-review" target="_blank" rel="noopener noreferrer" className='text-base text-blue-600 underline hover:text-blue-800 ease-in transition-all duration-100'>
                                 2023 study by Forbes Advisor
                             </a>
-                            of 600 business leaders revealed that over half believe AI can benefit their businesses. When it comes to leadership roles, AI has many advantages.
+                            {' '}of 600 business leaders revealed that over half believe AI can benefit their businesses. When it comes to leadership roles, AI has many advantages.
 
                         </p>
                         <p className='mt-3'> The technology has meant huge advancements in automation, data analytics, and decision-making capabilities; it’s a valuable tool for businesses, improving efficiency, accuracy, and customer satisfaction.
@@ -57,7 +57,7 @@ const Leadership = () => {
                         <h5 className='text-zinc-800 text-lg font-semibold  xl:text-xl 2xl:text-2xl mb-1'>Marketing
                         </h5>
                         <p>
-                            AI enhances Customer Relationship Management systems (CRMs) by analyzing large amounts of customer data to uncover preferences, behaviors, and trends. This helps businesses find new ways to segment audiences, so an AI tool can then deliver, track and optimize highly targeted customer outreach.
+                            AI enhances Customer Relationship Management systems (CRMs) by analyzing large amounts of customer data to uncover preferences, behaviors, and trends. This helps businesses find new ways to segment audiences, so an AI tool can then deliver track and optimize highly, targeted customer outreach.
                         </p>
                     </div>
                     <p>In addition to these activities, surveyed business leaders also listed the following key ways AI can be leveraged: </p>
@@ -87,7 +87,7 @@ const Leadership = () => {
                     <div>
                         <h3 className='text-2xl  2xl:text-3xl text-black font-semibold  mb-3'>AI Considerations
                         </h3>
-                        <p className='mt-3'> When it comes to leadership roles, AI (quite obviously) has many advantages. On the other hand, wider society has yet to feel this technology's true impact. For example, what effect will AI have on maintaining employee motivation, managing relationships, and collaboration?
+                        <p className='mt-3'> When it comes to leadership roles, AI has many obvious advantages. On the other hand, wider society has yet to feel this technology's true impact. For example, what effect will AI have on maintaining employee motivation, managing relationships, and collaboration?
 
                         </p>
                     </div>
@@ -104,7 +104,7 @@ const Leadership = () => {
                         <h5 className='text-zinc-800 text-lg font-semibold  xl:text-lg 2xl:text-xl mb-1'>Redundancies and workforce planning
                         </h5>
                         <p>
-                            The industrial revolution meant mass job loss for many countries. Now that AI is becoming increasingly human-like, accurate, and accessible, many feel it presents a similar threat to their jobs, which can easily translate into a resistance to change. However, while this may be accurate in some cases, AI can allow people to grow professionally by focusing on more interesting, creative, and fulfilling tasks.This is why training and upskilling are essential when implementing AI.
+                            The industrial revolution meant mass job loss for many countries. Now that AI is becoming increasingly human-like, accurate, and accessible, many feel it presents a similar threat to their jobs, which can easily translate into a resistance to change. However, while this may be accurate in some cases, AI can allow people to grow professionally by focusing on more interesting, creative, and fulfilling tasks. This is why training and upskilling are essential when implementing AI.
                         </p>
                     </div>
                     <div>
@@ -115,7 +115,7 @@ const Leadership = () => {
                         </p>
                     </div>
                     <div>
-                        <h5 className='text-zinc-800 text-lg font-semibold  xl:text-lg 2xl:text-xl mb-1'>Accountability and Transparency
+                        <h5 className='text-zinc-800 text-lg font-semibold  xl:text-lg 2xl:text-xl mb-1'>Accountability & Transparency
                         </h5>
                         <p>
                             As AI systems become more autonomous, it becomes difficult to determine who is responsible for their decisions and actions. Clear checks and frameworks must be agreed upon to manage accountability and assign responsibility when using AI. It is also challenging to understand how AI systems arrive at certain decisions. Algorithms must be easy to interpret so users can understand the reasoning behind the outcomes.
@@ -137,7 +137,7 @@ const Leadership = () => {
                             Despite initial reluctance from many people, AI is here to stay. When discussing AI within an organization, one must reassure people that their jobs are safe, explaining how AI will benefit them and their teams. Besides, many roles will still require a human touch; recent advances in AI, like ChatGPT, do not mean there won't be a place for leaders and managers in the future. Instead, it means businesses must adapt.
                         </p>
                         <p className='mt-3'>
-                            AI systems can be complicated to integrate and use effectively. But a robust system's positive impact on a business will outweigh the negatives when implemented in the correct manner.
+                            AI systems can be complicated to integrate and use effectively. But a robust system's positive impact on a business can outweigh the negatives when implemented in the correct manner.
                         </p>
                     </div>
                     <div className='mb-10 italic'>
