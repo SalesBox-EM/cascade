@@ -58,7 +58,7 @@ const UnderJohn = () => {
                 </div>
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
             </div>
-            <div className='w-[80%]  h-full   hidden'>
+            <div className='w-[80%]  h-full   lg:hidden'>
                 <h3 className='text-black text-2xl  leading-loose'>
                     A Career Implementing Simple Solutions to Solve Complex Problems for
                     World-Class Brands
