@@ -11,12 +11,11 @@ const Insight = () => {
                     <div className='w-full flex flex-col items-start gap-4  max-w-[500px] h-full'>
                         <img src={ImageOne} alt="" />
                         <div className='w-full flex flex-col justify-between h-full gap-3 '>
-                            <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3 '>The Invisible Barrier to Business Breakthroughs</h3>
+                            <h3 className='text-black text-2xl md:text-3xl mb-3 w-full  '>The Invisible Barrier to Business Breakthroughs</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex items-baseline flex-wrap '>
                                 <h5 className='text-xl italic  '>In today's competitive corporate landscape, consistent breakthroughs are essential for organizations to stay ahead. However ...
                                     <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_BusinessBreakthroughs/#head'}>Read More</HashLink>
-
                                 </h5>
                             </div>
                         </div>
@@ -28,7 +27,7 @@ const Insight = () => {
                                 Adaption</h3>
                             <h6>May 10, 2023</h6>
                             <div className='inline-flex  items-baseline flex-wrap '>
-                                <h5 className='text-xl italic   '>Artificial Intelligence (AI) technology threatens to topple businesses and execs that refuse to adapt to change. But with these advancements...  <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_LeadershipAdaption/#head'}>Read More</HashLink> </h5>
+                                <h5 className='text-xl italic   '>Artificial Intelligence (AI) technology threatens to topple businesses and execs that refuse to adapt to change. But with ...  <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_LeadershipAdaption/#head'}>Read More</HashLink> </h5>
                             </div>
                         </div>
                     </div>
