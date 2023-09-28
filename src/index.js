@@ -13,6 +13,7 @@ import Insights from './Components/Pages/Insights';
 import Barrier from './Components/Pages/Blogs.jsx/Barrier';
 import Leadership from './Components/Pages/Blogs.jsx/Leadership';
 import Execs from './Components/Pages/Blogs.jsx/Execs';
+import OurTeam from './Components/Pages/OurTeam';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -72,6 +73,10 @@ root.render(
 				<Route
 					path='/Blog_EngagedExecs'
 					element={<Execs />}
+				/>
+				<Route
+					path='/Leadership'
+					element={<OurTeam />}
 				/>
 			</Routes>
 		</BrowserRouter>

@@ -11,7 +11,7 @@ function App() {
 		<div className='App h-full '>
 			<Landing />
 			<UnderLanding />
-			<John />
+			{/* <John /> */}
 			<UnderJohn />
 			<Footer />
 		</div>

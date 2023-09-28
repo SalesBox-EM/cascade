@@ -96,6 +96,10 @@ const Footer = () => {
                                 <h2 className='text-xl  text-white transition-all duration-150 group-hover:text-[#00D2AD] ' > Cascade Clarity?</h2>
                             </div>
                         </HashLink>
+                        <HashLink to="/Leadership/#homeLeadership">
+                            <h6 className='text-[#A5A5A5] hover:text-white transition-all ease-in duration-300 text-lg mb-2'>Leadership</h6>
+
+                        </HashLink>
                         <HashLink to="/Insights/#homeInsights">
                             <h6 className='text-[#A5A5A5] hover:text-white transition-all ease-in duration-300 text-lg mb-2'>Insights</h6>
 

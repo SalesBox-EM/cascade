@@ -53,7 +53,7 @@ const Whycascade = () => {
                         At Cascade Clarity, our purpose is clear: to create organizational harmony.
                     </h5>
                     <h5 className='mt-6 font-normal'>
-                        We aim to empower businesses with the knowledge and tools to successfully implement and monitor their corporate goals as they cascade through the organization. With decades of experience combatting the "organizational silo effect," we eliminate this barrier through objective engagement and innovative technology, data, and integration.
+                        We empower businesses with the knowledge and tools to successfully implement and monitor their corporate goals as they cascade through the organization. With decades of experience combatting the "organizational silo effect," we eliminate this barrier through objective engagement and innovative technology, data, and integration.
                     </h5>
                     <div className='w-full h-full flex flex-col lg:flex-row items-center justify-center p-3 mt-6 gap-6'>
                         <img src={logo} className='w-[100px] md:w-[150px] xl:w-[200px] ' alt="" />

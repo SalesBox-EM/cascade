@@ -33,7 +33,7 @@ import Insight from './Inight'
 const UnderJohn = () => {
     return (
         <div className='w-full h-full md:mt-10 lg:mt-6 flex flex-col p-6 gap-10 bg-gradient-to-b from-white via-sky-200 to-sky-100  items-center justify-center'>
-            <div className='w-full lg:hidden '>
+            {/* <div className='w-full lg:hidden '>
                 <h1 className='text-black lg:w-[50%] lg:text-4xl w-[100%] text-2xl  text-center'>Building Purpose Driven Businesses</h1>
             </div>
             <div className='w-[95%] lg:w-[85%] relative grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-6 h-full'>
@@ -57,14 +57,14 @@ const UnderJohn = () => {
                     <img className='opacity-0 group-hover:opacity-100 absolute w-full h-full transition-opacity duration-700 ' src={card4} alt="" />
                 </div>
                 <img src={Line} className='absolute bottom-[-20px]' alt="" />
-            </div>
-            <div className='w-[80%]  h-full   lg:hidden'>
+            </div> */}
+            {/* <div className='w-[80%]  h-full   lg:hidden'>
                 <h3 className='text-black text-2xl  leading-loose'>
                     A Career Implementing Simple Solutions to Solve Complex Problems for
                     World-Class Brands
                 </h3>
-            </div>
-            <div className='w-[95%] lg:w-[85%]    relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
+            </div> */}
+            {/* <div className='w-[95%] lg:w-[85%]    relative flex flex-col lg:flex-row items-center justify-center gap-6 h-full'>
                 <div className=' w-[100%]   grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 h-full'>
                     <div className='group  bg-white  relative   shadow-lg shadow-black/50    rounded-2xl '>
                         <img className='opacity-100 group-hover:opacity-0 w-full h-full   transition-opacity duration-700 ' src={logo1} alt="" />
@@ -114,7 +114,7 @@ const UnderJohn = () => {
                     </h3>
                 </div>
 
-            </div>
+            </div> */}
             <h2 className='mt-12  text-center text-7xl font-bold text-[#215488]'>Insights</h2>
             <Insight />
         </div>

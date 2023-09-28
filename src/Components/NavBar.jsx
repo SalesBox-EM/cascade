@@ -144,7 +144,7 @@ const NavBar = () => {
                         <Turn onMouseEnter={handleMouseEnterHamburger} toggled={burger} toggle={setBurgerParent} />
                         {/* <img onMouseEnter={handleMouseEnterHamburger} className='cursor-pointer' onClick={handleBurger} src={Burger} alt="" /> */}
                         <div
-                            className={`w-[280px] absolute h-[380px] lg:h-[190px] gap-5 bg-[#0c2d4e] -right-[100%] lg:-right-[200%]  top-[72px]  flex-col items-start p-4 lg:p-10 justify-center ${burger ? 'flex' : 'hidden'
+                            className={`w-[280px] absolute h-[380px] lg:h-[220px] gap-5 bg-[#0c2d4e] -right-[100%] lg:-right-[200%]  top-[72px]  flex-col items-start p-4 lg:p-10 justify-center ${burger ? 'flex' : 'hidden'
                                 }`}
                         >
                             <div className='grid gap-5 pl-5 lg:hidden'>
@@ -174,6 +174,11 @@ const NavBar = () => {
                                     Why Cascade Clarity
                                 </NavHashLink>
                                 <NavHashLink
+                                    to="/Leadership/#homeLeadership"
+                                    className={`${location.pathname}${location.hash}` === '/Leadership/#homeLeadership' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
+                                    Leadership
+                                </NavHashLink>
+                                <NavHashLink
                                     to="/Insights/#homeInsights"
                                     className={`${location.pathname}${location.hash}` === '/Insights/#homeInsights' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
                                     Insights
@@ -184,8 +189,6 @@ const NavBar = () => {
                                     Let's Connect
                                 </NavHashLink>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
