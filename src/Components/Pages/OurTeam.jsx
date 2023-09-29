@@ -4,7 +4,7 @@ import NavBar from '../NavBar'
 import Footer from '../Footer/Footer'
 import JohnsImage from '../../Assets/JohnsImage.png'
 import DonRudolph from '../../Assets/1582910316313.jpg'
-import MargaretAnn from '../../Assets/1602779909731.jpg'
+import MargaretAnn from '../../Assets/Margaret.png'
 import UsmansImage from '../../Assets/headshot_3465 1.png'
 const OurTeam = () => {
     return (
@@ -32,20 +32,17 @@ const OurTeam = () => {
                 <img src={OurTeamImage} alt="Cascade Clarity Leadership " className='w-full pt-[96px] object-cover min-h-[450px]' />
             </div>
             <div className='w-full h-full flex flex-col items-center justify-center'>
-                <h2 className='text-center text-lg xl:text-xl w-[85%] lg:w-[70%] 2xl:text-2xl mt-16 mb-16'>
-                    Our U.S. advisory team has extensive experience in servicing the needs of private clients, global families
-                    and international companies. Please click on the links below to read more about their biographies.
-                </h2>
-                <div className='w-[95%]  lg:w-[90%] 2xl:w-[85%] grid grid-cols-1 gap-10 lg:gap-16 mb-16'>
+
+                <div className='w-[95%]  lg:w-[90%] 2xl:w-[85%] grid grid-cols-1 gap-10 lg:gap-16 mt-16 mb-16'>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
                             <img src={JohnsImage} className='w-[300px] shadow-lg  ' alt="John Cuellar" />
                         </div>
-                        <div className='flex flex-col justify-start items-start h-full w-full gap-2'>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
                             <div>
-                                <h2 className='text-[#4388CE] text-xl font-bold xl:text-3xl 2xl:text-4xl'>John Cuellar</h2>
-                                <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
-                                    Founder&CEO
+                                <h2 className='text-[#4388CE] text-2xl text-center w-full  font-bold xl:text-3xl 2xl:text-4xl'>John Cuellar</h2>
+                                <h3 className='text-black text-base mb-1 lg:mb-0  xl:text-lg 2xl:text-xl'>
+                                    Founder & CEO
                                 </h3>
                             </div>
                             <p className='text-[15px]'>
@@ -61,10 +58,10 @@ const OurTeam = () => {
                         <div>
                             <img src={MargaretAnn} className='w-[300px] rounded-[10px] shadow-lg ' alt="John Cuellar" />
                         </div>
-                        <div className='flex flex-col justify-start items-start h-full w-full '>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full '>
                             <div>
-                                <h2 className='text-[#4388CE] -mt-3 text-xl font-bold xl:text-3xl 2xl:text-4xl'>Margaret-Ann Cole</h2>
-                                <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
+                                <h2 className='text-[#4388CE] -mt-3 text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Margaret-Ann Cole</h2>
+                                <h3 className='text-black text-base  xl:text-lg mb-1 lg:mb-0 2xl:text-xl'>
                                     Founding Member
                                 </h3>
                             </div>
@@ -90,15 +87,16 @@ const OurTeam = () => {
                                 </li>
                             </ul>
 
+                            <p className='mt-1 text-[15px]'>Margaret-Ann received her Bachelor of Science degree in Psychology and Economics from Fordham University and her Master of Business Administration from TRIUM, an alliance of the New York University Stern School, the London School of Economics and Politics, and the HEC School of Management in Paris.</p>
                         </div>
                     </div>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
                             <img src={DonRudolph} className='w-[300px] rounded-[10px] shadow-lg ' alt="Don Rudolph" />
                         </div>
-                        <div className='flex flex-col justify-start items-start h-full w-full gap-2'>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
                             <div>
-                                <h2 className='text-[#4388CE] text-xl font-bold xl:text-3xl 2xl:text-4xl'>Don Rudolph</h2>
+                                <h2 className='text-[#4388CE] text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Don Rudolph</h2>
                                 <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
                                     Advisor
                                 </h3>
@@ -113,9 +111,9 @@ const OurTeam = () => {
                         <div>
                             <img src={UsmansImage} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Don Rudolph" />
                         </div>
-                        <div className='flex flex-col justify-start items-start h-full w-full gap-2'>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
                             <div>
-                                <h2 className='text-[#4388CE] text-xl font-bold xl:text-3xl 2xl:text-4xl'>Usman Raza</h2>
+                                <h2 className='text-[#4388CE] text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Usman Raza</h2>
                                 <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
                                     Advisor
                                 </h3>
