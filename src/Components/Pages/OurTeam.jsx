@@ -50,7 +50,6 @@ const OurTeam = () => {
                                 John co-founded SyncHR and lead the company through its early growth stage and then served as CTO for 10+ years. Prior to co-founding SyncHR, John was the CEO of Harbor Technology Group (HTG), a systems integration company focused on web-based solutions automating HR processes for fortune 500 companies. HTG was acquired by Mellon Financial Corporation.  Before HTG, John worked in Eastern Europe for the MBA Enterprise Corps performing privatization and M&A consulting. Other prior work endeavors include working with the Swiss Bank Corporation in their derivatives pricing group and as a senior manager for the US Navy.  John holds a BS in Electrical and Computer Engineering from the University of California at Santa Barbara and an MBA from the Haas School of Business at the University of California at Berkeley.
                             </p>
                             <p className='text-[15px]'>
-                                More About John:
                                 John lives in San Francisco and enjoys outdoor sports such as snowboarding, surfing, golf, cycling, and running. He likes to exercise the "other" side of his brain by playing the guitar and piano. John also has two sons that are both currently working in the Tech Industry.
                             </p>
                         </div>
