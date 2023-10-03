@@ -68,7 +68,7 @@ const Connect = () => {
                             <div className='flex gap-3 mt-5'>
                                 <img src={other} alt="" />
                                 <a href="https://maps.app.goo.gl/df5VXR963dvr7HGn9" target="_blank" rel="noopener noreferrer">
-                                    <h5 className='text-xl lg:text-2xl'>447 Sutter Street, Suite 405, San Francisco, CA 94108.</h5>
+                                    <h5 className='text-xl lg:text-2xl'>447 Sutter Street, Suite 405, San Francisco, CA 94108</h5>
                                 </a>
 
                             </div>
