@@ -57,7 +57,7 @@ const OurTeam = () => {
                     </div>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
-                            <img src={MargaretAnn} className='w-[300px] rounded-[10px] shadow-lg ' alt="John Cuellar" />
+                            <img src={MargaretAnn} className='w-[300px] rounded-[10px] shadow-lg ' alt="MAC" />
                         </div>
                         <div className='flex flex-col justify-start items-center lg:items-start h-full w-full '>
                             <div>
@@ -110,7 +110,7 @@ const OurTeam = () => {
                     </div>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
-                            <img src={UsmansImage} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Don Rudolph" />
+                            <img src={UsmansImage} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Usman Raza" />
                         </div>
                         <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
                             <div>
@@ -130,7 +130,7 @@ const OurTeam = () => {
                     </div>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
-                            <img src={JonathanGoldin} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Don Rudolph" />
+                            <img src={JonathanGoldin} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Jonathan Goldin" />
                         </div>
                         <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
                             <div>
