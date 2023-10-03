@@ -110,26 +110,6 @@ const OurTeam = () => {
                     </div>
                     <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
                         <div>
-                            <img src={UsmansImage} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Usman Raza" />
-                        </div>
-                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
-                            <div>
-                                <h2 className='text-[#4388CE] text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Usman Raza</h2>
-                                <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
-                                    Advisor
-                                </h3>
-                            </div>
-                            <p className='text-[15px]'>
-                                Usman is an accomplished physician-turned-product leader, known for his impressive track record in building scalable digital health and virtual care products. Over the last seven years in the tech industry, Usman has spearheaded the development of patient-facing chatbots, digital therapeutics for mental disorders and lifestyle interventions, data platforms for generating business insights and real-world evidence, patient services platforms and more.
-                                Prior to transitioning to the tech industry, Usman spent almost a decade as a physician and public health professional. He has led large-scale public health interventions for HIV, polio vaccination, maternal child health services, nutrition programs, and digital transformation initiatives at public and private organizations. Usman has also consulted for UN agencies, federal and state health departments on epidemic modeling, monitoring and evaluation, and capacity building for health professionals.
-                                Usman is driven by his passion for utilizing game-changing technologies to revolutionize access to care, improve patient outcomes, and transform the way providers deliver care.
-                                Born and raised in Pakistan, Usman earned his medical degree and residency from Khyber Medical College before receiving his MS degree from Harvard School of Public Health and MIMS from UC Berkeley School of Information.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
-                        <div>
                             <img src={JonathanGoldin} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Jonathan Goldin" />
                         </div>
                         <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
@@ -144,6 +124,27 @@ const OurTeam = () => {
                             </p>
                             <p className='text-[15px]'>
                                 Jonathan is a graduate of Hobart & William Smith Colleges, and earned his law degree, cum laude, from the University of Maine School of Law. He lives near the beach in New Jersey with his wife, Cathy, and 3 children, where he enjoys running, biking, SUP surfing, skiing, ice hockey, and struggling on the banjo, all in an attempt to stay young at heart.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
+                        <div>
+                            <img src={UsmansImage} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Usman Raza" />
+                        </div>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
+                            <div>
+                                <h2 className='text-[#4388CE] text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Usman Raza</h2>
+                                <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
+                                    Advisor
+                                </h3>
+                            </div>
+                            <p className='text-[15px]'>
+                                Usman is an accomplished physician-turned-product leader, known for his impressive track record in building scalable digital health and virtual care products. Over the last seven years in the tech industry, Usman has spearheaded the development of patient-facing chatbots, digital therapeutics for mental disorders and lifestyle interventions, data platforms for generating business insights and real-world evidence, patient services platforms and more.
+                                Prior to transitioning to the tech industry, Usman spent almost a decade as a physician and public health professional. He has led large-scale public health interventions for HIV, polio vaccination, maternal child health services, nutrition programs, and digital transformation initiatives at public and private organizations. Usman has also consulted for UN agencies, federal and state health departments on epidemic modeling, monitoring and evaluation, and capacity building for health professionals.
+                                Usman is driven by his passion for utilizing game-changing technologies to revolutionize access to care, improve patient outcomes, and transform the way providers deliver care.
+                                Born and raised in Pakistan, Usman earned his medical degree and residency from Khyber Medical College before receiving his MS degree from Harvard School of Public Health and MIMS from UC Berkeley School of Information.
                             </p>
 
                         </div>
