@@ -3,9 +3,10 @@ import OurTeamImage from '../../Assets/BgImageLeaderShip.png'
 import NavBar from '../NavBar'
 import Footer from '../Footer/Footer'
 import JohnsImage from '../../Assets/JohnsImage.png'
-import DonRudolph from '../../Assets/1582910316313.jpg'
+import DonRudolph from '../../Assets/DonRudolph.png'
 import MargaretAnn from '../../Assets/Margaret.png'
 import UsmansImage from '../../Assets/headshot_3465 1.png'
+import JonathanGoldin from '../../Assets/Picture1 (1).png'
 const OurTeam = () => {
     return (
         <div id='homeLeadership' className='w-full h-full'>
@@ -123,6 +124,26 @@ const OurTeam = () => {
                                 Prior to transitioning to the tech industry, Usman spent almost a decade as a physician and public health professional. He has led large-scale public health interventions for HIV, polio vaccination, maternal child health services, nutrition programs, and digital transformation initiatives at public and private organizations. Usman has also consulted for UN agencies, federal and state health departments on epidemic modeling, monitoring and evaluation, and capacity building for health professionals.
                                 Usman is driven by his passion for utilizing game-changing technologies to revolutionize access to care, improve patient outcomes, and transform the way providers deliver care.
                                 Born and raised in Pakistan, Usman earned his medical degree and residency from Khyber Medical College before receiving his MS degree from Harvard School of Public Health and MIMS from UC Berkeley School of Information.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className='w-full h-full  flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6'>
+                        <div>
+                            <img src={JonathanGoldin} className='w-[300px] h-full rounded-[10px] shadow-lg ' alt="Don Rudolph" />
+                        </div>
+                        <div className='flex flex-col justify-start items-center lg:items-start h-full w-full gap-2'>
+                            <div>
+                                <h2 className='text-[#4388CE] text-2xl font-bold xl:text-3xl 2xl:text-4xl'>Jonathan Goldin</h2>
+                                <h3 className='text-black text-base  xl:text-lg 2xl:text-xl'>
+                                    Advisor
+                                </h3>
+                            </div>
+                            <p className='text-[15px]'>
+                                Jonathan is a growth focused global human capital, transformation, and business executive who works with leaders and stakeholders to develop and scale more aligned, productive, engaged, and agile workplaces that drive business results. Jonathan brings a breadth and depth of experience, working with businesses of all sizes, complexity and industry, to ensure an organization’s talent, culture, process and technology practices enable business strategy, drive growth, and deliver value. Working with an effective balance of strategic vision and tactical execution, Jonathan helps identify critical value drivers, assess needs and gaps in capabilities, translate opportunities into action plans, and mobilize stakeholders to drive execution. Jonathan’s experience includes leadership roles as a Chief People Officer, private equity operating executive, VP of HR Strategy & Transformation at a Global Fortune 500, human capital & business transformation consultant, and General Counsel and Head of Business Development at a successful start-up.
+                            </p>
+                            <p className='text-[15px]'>
+                                Jonathan is a graduate of Hobart & William Smith Colleges, and earned his law degree, cum laude, from the University of Maine School of Law. He lives near the beach in New Jersey with his wife, Cathy, and 3 children, where he enjoys running, biking, SUP surfing, skiing, ice hockey, and struggling on the banjo, all in an attempt to stay young at heart.
                             </p>
 
                         </div>
