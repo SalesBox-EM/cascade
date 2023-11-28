@@ -14,6 +14,7 @@ import Barrier from './Components/Pages/Blogs.jsx/Barrier';
 import Leadership from './Components/Pages/Blogs.jsx/Leadership';
 import Execs from './Components/Pages/Blogs.jsx/Execs';
 import OurTeam from './Components/Pages/OurTeam';
+import LinkedIn from './Components/Pages/LinkedIn';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -41,6 +42,10 @@ root.render(
 				<Route
 					path='/Organizational'
 					element={<Organizational />}
+				/>
+				<Route
+					path='/LinkedIn'
+					element={<LinkedIn />}
 				/>
 				<Route
 					path='/Cascading'

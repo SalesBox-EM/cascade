@@ -144,7 +144,7 @@ const NavBar = () => {
                         <Turn onMouseEnter={handleMouseEnterHamburger} toggled={burger} toggle={setBurgerParent} />
                         {/* <img onMouseEnter={handleMouseEnterHamburger} className='cursor-pointer' onClick={handleBurger} src={Burger} alt="" /> */}
                         <div
-                            className={`w-[280px] absolute h-[380px] lg:h-[220px] gap-5 bg-[#0c2d4e] -right-[100%] lg:-right-[200%]  top-[72px]  flex-col items-start p-4 lg:p-10 justify-center ${burger ? 'flex' : 'hidden'
+                            className={`w-[280px] absolute h-[420px] lg:h-[260px] gap-5 bg-[#0c2d4e] -right-[100%] lg:-right-[200%]  top-[72px]  flex-col items-start p-4 lg:p-10 justify-center ${burger ? 'flex' : 'hidden'
                                 }`}
                         >
                             <div className='grid gap-5 pl-5 lg:hidden'>
@@ -182,6 +182,11 @@ const NavBar = () => {
                                     to="/Insights/#homeInsights"
                                     className={`${location.pathname}${location.hash}` === '/Insights/#homeInsights' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
                                     Insights
+                                </NavHashLink>
+                                <NavHashLink
+                                    to="/LinkedIn"
+                                    className={`${location.pathname}${location.hash}` === '/LinkedIn' ? "text-blue-600  text-lg font-normal" : " text-white text-lg font-normal"}>
+                                    LinkedIn
                                 </NavHashLink>
                                 <NavHashLink
                                     to="/Connect/#homeConnect"
