@@ -12,17 +12,17 @@ const LinkedIn = () => {
                 <h1 className='text-black font-normal mt-[140px] md:mt-[180px] mb-12 lg:mb-20'>LinkedIn Blog</h1>
                 <div className='w-full h-full flex flex-col items-center justify-center  mb-16 gap-20'>
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7142915898180354050" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    <!-- 12/19/2023 ^^^ -->
+                    {/* 12/19/2023 ^^^ */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7140369710004469760" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    <!--   12/12/2023 ^^^ -->
+                    {/*   12/12/2023 ^^^ */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7138194353474215938" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    <!-- 12/6/2023 x15938 -->
+                    {/*12/6/2023 x15938 */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7135657941617045505" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    <-- Nov 29 2023 x45005 ^^ -->
+                    {/* Nov 29 2023 x45005 ^^ */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7135298961891885056" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    <-- Nov 28 2023  ^^x85056-->
+                   {/* Nov 28 2023  ^^x85056 */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7133112952177455104" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                      <-- Nov 22 2023 ^^ x55104  -->
+                        {/* Nov 22 2023 ^^ x55104  */}
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7130611604940849153" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7127682577645101056" width="95%" style={{ maxWidth: '900px', height: '60vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7122980115340238848" width="95%" style={{ maxWidth: '900px', height: '40vh' }} frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
