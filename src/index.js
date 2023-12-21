@@ -15,6 +15,7 @@ import Leadership from './Components/Pages/Blogs.jsx/Leadership';
 import Execs from './Components/Pages/Blogs.jsx/Execs';
 import OurTeam from './Components/Pages/OurTeam';
 import LinkedIn from './Components/Pages/LinkedIn';
+import Optimize from './Components/Pages/Blogs.jsx/Optimize';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -78,6 +79,10 @@ root.render(
 				<Route
 					path='/Blog_EngagedExecs'
 					element={<Execs />}
+				/>
+				<Route
+					path='/Blog_OptimizingSales'
+					element={<Optimize />}
 				/>
 				<Route
 					path='/Leadership'
