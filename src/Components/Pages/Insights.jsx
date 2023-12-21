@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar'
 import bgImage from '../../Assets/Group insights.png'
 import Footer from '../Footer/Footer'
-import Insight from '../Inight'
+import Insight from '../Insight'
 import { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 const Insights = () => {

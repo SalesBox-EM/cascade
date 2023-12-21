@@ -53,33 +53,36 @@ const Optimize = () => {
                     <p>
                         But what concrete steps can an organization, like a SaaS company, take to improve efficiency between marketing and sales?
                     </p>
-                    <p className='font-semibold'>
+                    <h4 className='text-xl  2xl:text-2xl text-black font-semibold  '>
                         Here are Cascade Clarity's recommendations:
-                    </p>
-                    <p className='font-semibold'>
-                        UnCover and Chronicle All of Marketing's Lead-Generating Sequences
-                    </p>
-                    <p>
-                        The first step involves exploring the myriad channels of marketing lead generation. Understanding the nuances of intent signal mechanisms and metrics, analyzing social media interactions, copy and content visitations, outreach sequences and response metrics, and seminar participation is just the beginning. An organization must get a holistic view of all marketing endeavors.
-                    </p>
-                    <p className='font-semibold'>
-                        Construct and Cultivate an Appropriate Attribution Modeling Scheme for Lead Scoring/Ranking
-                    </p>
-                    <p>
-                        Given the diverse challenges of marketing lead generation, the task here can be immense. However, addressing these is critical. Establishing an objective Marketing Lead Ranking (MLR) system is imperative for sales teams to develop confidence in the leads they receive.
-                    </p>
-                    <p className='font-semibold'>
-                        InCorporate Sales Feedback into the Attribution Model
-                    </p>
-                    <p>
-                        Feedback is critical for model tuning. Sales teams must be incentivized to provide input, ensuring both departments become more efficient.
-                    </p>
-                    <p className='font-semibold'>
-                        EnCourage Efficiency and Improvement for Continuity Through Active Monitoring
-                    </p>
-                    <p>
-                        This step isn't a one-time fix but a continuous process. Active monitoring and managing of an organization's approach to this process is essential to ensuring the sales and marketing teams continue to evolve and adapt, enhancing their collective success.
-                    </p>
+                    </h4>
+                    <ul className='pl-6'>
+
+                        <li className='font-semibold list-disc decoration-black  '>
+                            UnCover and Chronicle All of Marketing's Lead-Generating Sequences
+                        </li>
+                        <p>
+                            The first step involves exploring the myriad channels of marketing lead generation. Understanding the nuances of intent signal mechanisms and metrics, analyzing social media interactions, copy and content visitations, outreach sequences and response metrics, and seminar participation is just the beginning. An organization must get a holistic view of all marketing endeavors.
+                        </p>
+                        <li className='font-semibold list-disc mt-3 decoration-black  '>
+                            Construct and Cultivate an Appropriate Attribution Modeling Scheme for Lead Scoring/Ranking
+                        </li>
+                        <p>
+                            Given the diverse challenges of marketing lead generation, the task here can be immense. However, addressing these is critical. Establishing an objective Marketing Lead Ranking (MLR) system is imperative for sales teams to develop confidence in the leads they receive.
+                        </p>
+                        <li className='font-semibold list-disc mt-3 decoration-black  '>
+                            InCorporate Sales Feedback into the Attribution Model
+                        </li>
+                        <p>
+                            Feedback is critical for model tuning. Sales teams must be incentivized to provide input, ensuring both departments become more efficient.
+                        </p>
+                        <li className='font-semibold list-disc mt-3 decoration-black  '>
+                            EnCourage Efficiency and Improvement for Continuity Through Active Monitoring
+                        </li>
+                        <p>
+                            This step isn't a one-time fix but a continuous process. Active monitoring and managing of an organization's approach to this process is essential to ensuring the sales and marketing teams continue to evolve and adapt, enhancing their collective success.
+                        </p>
+                    </ul>
                     <h3 className='text-2xl  2xl:text-3xl text-black font-semibold  mb-3'>Clarity for 2024  </h3>
                     <p>
 
