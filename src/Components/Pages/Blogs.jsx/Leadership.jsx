@@ -20,10 +20,11 @@ const Leadership = () => {
                     </h1>
                     <p className='italic'>Artificial Intelligence (AI) technology threatens to topple businesses and execs that refuse to adapt to change. But with these advancements comes the opportunity to improve organizations from the top down.
                     </p>
-                    <p>Business leaders must understand how to leverage AI to remain competitive in the new digital landscape. But, even more crucially, they must understand their part in ensuring their business embraces the change.
+                    <p>Business leaders must understand how to leverage AI to remain competitive in the new digital age. But, even more crucially, they must understand their part in ensuring a business embraces the change.
                     </p>
-                    <p>As execs are generally responsible for widespread organizational change, many are already grappling with the ins and outs of driving company-wide adaptation. And while these processes come in many forms, they must cascade from the top down for sustainable implementation; to lead effectively, one must provide a top-level business vision. </p>
-                    <p>AI and the ever-evolving tech element are no exception. An AI/tech strategy must align with corporate and departmental goals so everyone can understand the value, ensuring company-wide alignment and support. By breaking down AI's effects and benefits at a department level, one can inspire department heads and team leaders to embrace the change and support a smooth transition.  </p>
+                    <p>As executives are often responsible for widespread organizational change, many are already grappling with the ins and outs of driving company-wide adaptation. While these initiatives come in many forms, they must cascade from the top down for sustainable implementation — to lead effectively, one must provide a top-level business vision.</p>
+                    <p>AI and the ever-evolving tech element are no exception. An AI/tech strategy must align with corporate and departmental goals so everyone can understand the value, ensuring company-wide alignment and support. By breaking down AI's effects and benefits at a department level, one can inspire department heads and team leaders to embrace the change and support a smooth transition. </p>
+                    <p>In addition to inspiring the workforce for the need to change, preparation is critical to a successful transformation — an organization's people must have both a willingness to adapt and the ability.</p>
                     <div>
                         <h3 className='text-2xl  2xl:text-3xl text-black font-semibold  mb-3'>Transforming Business with AI
                         </h3>
@@ -50,7 +51,7 @@ const Leadership = () => {
                         <h5 className='text-zinc-800 text-lg font-semibold  xl:text-xl 2xl:text-2xl mb-1'>Customer Service
                         </h5>
                         <p>
-                            AI-powered chatbots can tackle common customer inquiries, offering instant 24/7 support 365 days a year. Further, AI data analysis can track customer trends, preferences, and sentiments to help businesses provide proactive, tailored support to increase customer satisfaction and loyalty.
+                        AI-powered chatbots can tackle common customer inquiries, offering instant 24/7 support 365 days a year. AI data analysis is able to track customer trends, preferences, and sentiments to help businesses provide proactive, tailored support to increase customer satisfaction and loyalty.  Further, the information gathered can help support the interactions between live representatives and customers. 
                         </p>
                     </div>
                     <div>
@@ -104,7 +105,7 @@ const Leadership = () => {
                         <h5 className='text-zinc-800 text-lg font-semibold  xl:text-lg 2xl:text-xl mb-1'>Redundancies and workforce planning
                         </h5>
                         <p>
-                            The industrial revolution meant mass job loss for many countries. Now that AI is becoming increasingly human-like, accurate, and accessible, many feel it presents a similar threat to their jobs, which can easily translate into a resistance to change. However, while this may be accurate in some cases, AI can allow people to grow professionally by focusing on more interesting, creative, and fulfilling tasks. This is why training and upskilling are essential when implementing AI.
+                        The Industrial Revolution meant mass job loss for many countries. Now that AI is becoming increasingly human-like, accurate, and accessible, many feel it presents a similar threat to their jobs, which can easily translate into resistance to change. However, while this may be accurate in some cases, AI can allow people to grow professionally by focusing on more interesting, creative, and fulfilling tasks. AI adoption requires changing existing organizational roles, the skills necessary to fulfill those roles, and potentially the organization's design. This is why training and upskilling are essential when implementing advanced technology.
                         </p>
                     </div>
                     <div>
@@ -136,12 +137,17 @@ const Leadership = () => {
                         <p>
                             Despite initial reluctance from many people, AI is here to stay. When discussing AI within an organization, one must reassure people that their jobs are safe, explaining how AI will benefit them and their teams. Besides, many roles will still require a human touch; recent advances in AI, like ChatGPT, do not mean there won't be a place for leaders and managers in the future. Instead, it means businesses must adapt.
                         </p>
-                        <p className='mt-3'>
-                            AI systems can be complicated to integrate and use effectively. But a robust system's positive impact on a business can outweigh the negatives when implemented in the correct manner.
+                        <br />
+                        <p>
+                        Still, AI systems can be complicated to integrate and use effectively. But a robust system's positive impact on a business can outweigh the negatives when implemented correctly — a workforce/AI partnership has tremendous potential for the organization's success. Careful consideration of the effect on people is a critical component of any transformation, but it is even more significant when adopting AI. 
+                        </p>
+                        <br />
+                        <p>
+                        The statistics of failed digital transformations are staggering; according to McKinsey, it's almost a 70% failure rate. Successful transformations are the ones that involve people from the beginning. If a workforce doesn't embrace and utilize AI, the transformation may not yield the expected results. Marrying AI with HI and employing a people-first design for tech transformations will minimize disruption, accelerate delivery, and maximize the value it creates.
                         </p>
                     </div>
                     <div className='mb-10 italic'>
-                        <h3 className='text-xl  2xl:text-2xl text-black font-semibold  '>Need support?
+                        <h3 className='text-xl  2xl:text-2xl text-black font-semibold  '>Gain Clarity: Get the Support You Need 
                         </h3>
                         <p className='italic'>
                             To ensure an organization remains on track and can successfully leverage cutting-edge technology, seeking expert help and advice is always advisable. At Cascade Clarity, we specialize in AI consulting, planning, and implementation. <HashLink className='text-base text-blue-600 underline hover:text-blue-800 ease-in transition-all duration-100' to={'/Connect/#homeConnect'}>Connect</HashLink> with us to find out more.
