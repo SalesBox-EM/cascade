@@ -130,22 +130,18 @@ const Leadership = () => {
                             AI requires large amounts of data. This means organizations must be prudent in securely handling and storing data, respecting privacy policies, and complying with data regulations. Moreover, AI systems are vulnerable to cyberattacks and manipulation. Safeguarding these systems against threats and preventing attacks is essential for ethical AI implementation.
                         </p>
                     </div>
-                    <div>
+                
                         <h3 className='text-2xl  2xl:text-3xl text-black font-semibold  mb-3'>Implementing AI the Right Way
-
                         </h3>
                         <p>
                             Despite initial reluctance from many people, AI is here to stay. When discussing AI within an organization, one must reassure people that their jobs are safe, explaining how AI will benefit them and their teams. Besides, many roles will still require a human touch; recent advances in AI, like ChatGPT, do not mean there won't be a place for leaders and managers in the future. Instead, it means businesses must adapt.
                         </p>
-                        <br />
                         <p>
                         Still, AI systems can be complicated to integrate and use effectively. But a robust system's positive impact on a business can outweigh the negatives when implemented correctly — a workforce/AI partnership has tremendous potential for the organization's success. Careful consideration of the effect on people is a critical component of any transformation, but it is even more significant when adopting AI. 
                         </p>
-                        <br />
                         <p>
                         The statistics of failed digital transformations are staggering; according to McKinsey, it's almost a 70% failure rate. Successful transformations are the ones that involve people from the beginning. If a workforce doesn't embrace and utilize AI, the transformation may not yield the expected results. Marrying AI with HI and employing a people-first design for tech transformations will minimize disruption, accelerate delivery, and maximize the value it creates.
                         </p>
-                    </div>
                     <div className='mb-10 italic'>
                         <h3 className='text-xl  2xl:text-2xl text-black font-semibold  '>Gain Clarity: Get the Support You Need 
                         </h3>
