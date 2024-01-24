@@ -18,6 +18,7 @@ import LinkedIn from './Components/Pages/LinkedIn';
 import Optimize from './Components/Pages/Blogs.jsx/Optimize';
 import White from './Components/Pages/Blogs.jsx/White';
 import Navigate from './Components/Pages/Blogs.jsx/Navigate';
+import { HelmetProvider } from 'react-helmet';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
