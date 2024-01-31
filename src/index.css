@@ -25,7 +25,7 @@ body {
 		@apply text-[15px] lg:text-[15px] xl:text-[20px] tracking-wide font-medium  z-40  text-black;
 	}
 	.indented-paragraph {
-		padding-left: 45px; /* Adjust the value as needed for your desired indentation */
+		padding-left: 24px; /* Adjust the value as needed for your desired indentation */
 	  }
 	.textBlue {
 		color: blue;

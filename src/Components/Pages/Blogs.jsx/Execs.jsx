@@ -94,7 +94,8 @@ const Execs = () => {
                     <p class="indented-paragraph">
                     As marketing refines its strategies, sales teams receive updated insights and recommendations. This iterative process creates a closed-loop system where each interaction contributes to the collective intelligence of both teams. Marketing learns from sales and sales benefits from the proactive adjustments made by marketing.
                     </p>
-                    <img src={ImageFour} alt="Marketing Sales White Space"></img>
+                    <img src={ImageFour} alt="Marketing Sales White Space" class="w-full"></img>
+                    <p class="text-center">The Marketing ←→ Sales Feedback Loop</p>
                         <h5 className='text-zinc-800 text-lg font-semibold  xl:text-xl 2xl:text-xl mb-1 '>Adaptable Leaders Create Change
                         </h5>
                         <p>
