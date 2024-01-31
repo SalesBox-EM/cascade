@@ -12,6 +12,16 @@ const Insight = () => {
             <div className='w-[90%] mt-10 mb-10 h-full'>
                 <div className='w-full h-full  grid lg:grid-cols-3 gap-10 items-start justify-center'>
                     <div className='w-full flex flex-col items-start gap-4  max-w-[500px] h-full'>
+                        <img src={ImageThree} alt="" />
+                        <div className='w-full flex flex-col justify-between h-full gap-3 '>
+                            <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3'>Operational AI Needs Adaptable Execs</h3>
+                            <h6>January 30, 2024</h6>
+                            <div className='inline-flex items-baseline flex-wrap '>
+                                <h5 className='text-xl italic  '>The success of most modern companies hinges on their ability to adapt, innovate, and evolve. Getting this right often means ... <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_EngagedExecs/#head'}>Read More</HashLink> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='w-full flex flex-col items-start gap-4  max-w-[500px] h-full'>
                         <img src={ImageFour} alt="Optimizing Sales and Marketing for 2024" />
                         <div className='w-full flex flex-col justify-between h-full gap-3 '>
                             <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3'>Optimizing Sales and Marketing for 2024</h3>
@@ -66,17 +76,6 @@ const Insight = () => {
                                 <h5 className='text-xl italic   '>Artificial Intelligence (AI) technology threatens to topple businesses and execs that refuse to adapt to change. But with ...  <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_LeadershipAdaption/#head'}>Read More</HashLink> </h5>
                             </div>
                         </div>
-                    </div>
-                    <div className='w-full flex flex-col items-start gap-4  max-w-[500px] h-full'>
-                        <img src={ImageThree} alt="" />
-                        <div className='w-full flex flex-col justify-between h-full gap-3 '>
-                            <h3 className='text-black text-2xl md:text-3xl mb-3 w-full md:w-2/3'>Actionable Ideas Need Engaged Execs</h3>
-                            <h6>May 10, 2023</h6>
-                            <div className='inline-flex items-baseline flex-wrap '>
-                                <h5 className='text-xl italic  '>Staying relevant in the ever-changing business landscape requires ongoing innovation and adaptation. Often leveraging the latest ... <HashLink className='hover:text-blue-600 not-italic transition-all duration-100 ease-in' to={'/Blog_EngagedExecs/#head'}>Read More</HashLink> </h5>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
